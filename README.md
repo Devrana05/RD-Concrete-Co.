@@ -1,4 +1,4 @@
-# R.D. Concrete Co. — Precast Concrete & Hardscape Solutions 🏗️
+# R D Concrete Co. — Quality Precast Concrete Products
 
 Welcome to the official frontend repository for **R.D. Concrete Co.**! This project is a modern, high-performance web application built to showcase a comprehensive catalog of premium precast concrete products, including Pavers, U-Drains, Kerb Stones, RCC Manhole Chambers, SFRC Railings, and more.
 
