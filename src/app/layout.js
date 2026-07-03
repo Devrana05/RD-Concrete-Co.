@@ -24,7 +24,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "R.D. Concrete Co. — Premier Precast Concrete & Hardscape Solutions",
+  title: "R D Concrete Co. — Quality Precast Concrete Products",
   description:
     "Leading manufacturer of high-quality precast concrete products including Pavers, U-Drains, Kerb Stones, RCC Manhole Chambers, and SFRC Railings for robust infrastructure.",
   keywords: [
