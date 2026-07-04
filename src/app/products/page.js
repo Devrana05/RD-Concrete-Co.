@@ -223,7 +223,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => setSelectedUDrainProduct(null)} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -237,7 +237,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -251,7 +251,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -265,7 +265,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -279,7 +279,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -351,7 +351,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => setSelectedJerseyProduct(null)} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-display font-700 tracking-wider text-xs uppercase hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -365,7 +365,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -379,7 +379,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -393,7 +393,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -406,7 +406,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -420,7 +420,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -434,7 +434,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -448,7 +448,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -523,7 +523,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => setSelectedGardenBenchProduct(null)} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back to Hub
         </button>
@@ -628,7 +628,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleSubCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back
         </button>
@@ -642,7 +642,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleSubCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back
         </button>
@@ -656,7 +656,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleSubCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back
         </button>
@@ -670,7 +670,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleSubCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back
         </button>
@@ -684,7 +684,7 @@ function CatalogContent() {
       <div className="relative">
         <button 
           onClick={() => handleSubCategoryChange('all')} 
-          className="absolute top-8 left-4 md:left-8 z-40 border border-ink text-ink bg-white/80 backdrop-blur-md px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
+          className="absolute top-2 left-2 md:top-8 md:left-8 z-30 border border-ink text-ink bg-white/80 backdrop-blur-md px-2 py-1 md:px-4 md:py-2 font-mono text-[10px] md:text-xs uppercase tracking-wider hover:bg-ink hover:text-white transition-colors cursor-pointer shadow-md"
         >
           &lt; Back
         </button>

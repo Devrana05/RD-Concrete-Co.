@@ -24,7 +24,7 @@ export default function HeroVideoCarousel() {
           loop
           muted
           playsInline
-          className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out pointer-events-none ${
+          className={`absolute top-0 left-0 w-full h-full object-contain md:object-cover transition-opacity duration-1000 ease-in-out pointer-events-none ${
             index === currentVideo ? "opacity-80 z-10" : "opacity-0 z-0"
           }`}
         >

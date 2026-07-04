@@ -6,17 +6,17 @@ export default function HomePage() {
   return (
     <>
       {/* 1. Hero Section */}
-      <section className="relative h-[80vh] min-h-[600px] flex items-center bg-ink">
-        {/* Full width background image */}
-        <div className="absolute inset-0 bg-gradient-to-r from-ink/50 via-ink/20 to-transparent z-10 pointer-events-none" />
+      <section className="relative w-full aspect-video md:h-[80vh] md:min-h-[600px] md:aspect-auto flex items-center bg-ink overflow-hidden">
+        {/* Gradient overlays */}
+        <div className="absolute inset-0 bg-gradient-to-r from-ink/70 via-ink/30 md:from-ink/50 md:via-ink/20 to-transparent z-10 pointer-events-none" />
         <HeroVideoCarousel />
         
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div className="max-w-3xl">
-            <h1 className="font-display font-800 text-5xl md:text-7xl lg:text-8xl tracking-wide text-white leading-[1.05] mb-6 drop-shadow-xl">
+          <div className="max-w-[70%] sm:max-w-xl md:max-w-3xl">
+            <h1 className="font-display font-800 text-2xl sm:text-4xl md:text-7xl lg:text-8xl tracking-wide text-white leading-[1.05] mb-2 md:mb-6 drop-shadow-xl">
               Designed for the outdoors, <br/> Built to last.
             </h1>
-            <p className="font-body text-lg md:text-xl text-white/90 max-w-xl mb-10">
+            <p className="font-body text-xs sm:text-sm md:text-xl text-white/90 max-w-[90%] md:max-w-xl mb-0 md:mb-10">
               Manufacturer of quality precast concrete products. Trusted across the region since 2005.
             </p>
           </div>

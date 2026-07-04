@@ -1130,7 +1130,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
       {/* =========================================
           HERO SECTION
           ========================================= */}
-      <section className="relative w-full min-h-screen flex flex-col justify-center items-center pt-24 pb-12 overflow-hidden bg-[#111]">
+      <section className={`relative w-full ${data.heroVideo ? 'aspect-video' : 'aspect-[4/5] sm:aspect-square'} md:min-h-screen md:aspect-auto flex flex-col justify-center items-center pt-12 pb-4 md:pt-24 md:pb-12 overflow-hidden bg-[#111]`}>
         {/* Full width background media */}
         <div className="absolute inset-0 z-0 bg-[#111]">
           {data.heroVideo ? (
@@ -1140,10 +1140,10 @@ export default function UDrainLandingPage({ productType = "T25" }) {
               loop 
               muted 
               playsInline
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain md:object-cover"
             />
           ) : (
-            <img src={data.heroImage} alt={data.titlePrefix} className={`w-full h-full ${data.heroImageFit === 'contain' ? 'object-contain' : data.heroImageFit === 'fill' ? 'object-cover md:object-fill' : 'object-cover'}`} />
+            <img src={data.heroImage} alt={data.titlePrefix} className={`w-full h-full ${data.heroImageFit === 'contain' ? 'object-contain' : data.heroImageFit === 'fill' ? 'object-contain md:object-fill' : 'object-cover'}`} />
           )}
         </div>
         
@@ -1154,16 +1154,16 @@ export default function UDrainLandingPage({ productType = "T25" }) {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="font-display font-900 text-5xl md:text-7xl text-white uppercase tracking-tighter mb-6 drop-shadow-xl"
+            className="font-display font-900 text-2xl sm:text-4xl md:text-6xl lg:text-7xl text-white uppercase tracking-tighter mb-2 md:mb-6 drop-shadow-xl"
           >
-            {data.titlePrefix} <span className="text-gray-400 font-300">|</span> {data.badge}
+            {data.titlePrefix} <span className="text-gray-400 font-300 inline-block mx-1 md:mx-2">|</span> {data.badge}
           </motion.h1>
           
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="font-body text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed drop-shadow-md"
+            className="font-body text-xs sm:text-sm md:text-xl text-gray-200 mb-4 md:mb-10 max-w-[90%] md:max-w-2xl mx-auto leading-relaxed drop-shadow-md"
           >
             {data.descTop}
           </motion.p>
@@ -1175,9 +1175,9 @@ export default function UDrainLandingPage({ productType = "T25" }) {
           >
             <button 
               onClick={() => setInquiryOpen(true)}
-              className="bg-white text-[#111] px-8 py-4 font-display font-bold uppercase tracking-wider hover:bg-[#0066B3] hover:text-white transition-colors flex items-center gap-3 mx-auto shadow-lg"
+              className="bg-white text-[#111] px-3 py-1.5 md:px-8 md:py-4 text-[10px] md:text-base font-display font-bold uppercase tracking-wider hover:bg-[#0066B3] hover:text-white transition-colors flex items-center gap-1.5 md:gap-3 mx-auto shadow-lg"
             >
-              Get free quote <ArrowRight size={20} />
+              Get free quote <ArrowRight className="w-3 h-3 md:w-5 md:h-5" />
             </button>
           </motion.div>
         </div>
