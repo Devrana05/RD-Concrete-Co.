@@ -19,7 +19,7 @@ const productData = {
     ],
     heroImage: "/prod15.png",
     heroImageFit: "cover",
-    gallery: ["/prod15.png", "/prod15.png", "/prod15.png"],
+    gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.jpeg", "/sewer3.png"],
     bulletPoints: [],
     implementationFeatures: [
       { cat: "Residential Housing", desc: "Reliable connection from household drains to municipal sewer lines." },
@@ -28,6 +28,7 @@ const productData = {
     ],
     specsTable: [
       { label: "Product Type", value: "Sewer Connection Chamber - Section 1" },
+      { label: "Size", value: "300 X 450 X 100 mm" },
       { label: "Material", value: "Reinforced Precast Concrete" },
       { label: "Grade", value: "M-30" },
       { label: "Application", value: "Sewerage & Drainage" }
@@ -35,10 +36,11 @@ const productData = {
     additionalSections: [
       {
         title: "",
-        gallery: ["/prod15.png", "/prod15.png", "/prod15.png"],
+        gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.jpeg", "/sewer4.png"],
         bulletPoints: [],
         specsTable: [
           { label: "Product Type", value: "Sewer Connection Chamber - Section 2" },
+          { label: "Size", value: "450 X 450 X 100 mm" },
           { label: "Material", value: "Reinforced Precast Concrete" },
           { label: "Grade", value: "M-30" },
           { label: "Application", value: "Sewerage & Drainage" }
@@ -46,10 +48,11 @@ const productData = {
       },
       {
         title: "",
-        gallery: ["/prod15.png", "/prod15.png", "/prod15.png"],
+        gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.jpeg", "/sewer5.png"],
         bulletPoints: [],
         specsTable: [
           { label: "Product Type", value: "Sewer Connection Chamber - Section 3" },
+          { label: "Size", value: "450 X 600 X 100 mm" },
           { label: "Material", value: "Reinforced Precast Concrete" },
           { label: "Grade", value: "M-30" },
           { label: "Application", value: "Sewerage & Drainage" }
@@ -78,20 +81,20 @@ const productData = {
       { cat: "Industrial Drainage", desc: "Heavy-duty chambers capable of handling industrial effluents and heavy surface traffic." }
     ],
     specsTable: [
-          { label: "Shape", value: "cone" },
-          { label: "Usage/Application", value: "Drainage" },
-          { label: "Material", value: "Concrete" },
-          { label: "Uses", value: "Sewerage, Drainage, Water Harvesting, Cabling" },
-          { label: "Grade", value: "M40" },
-          { label: "Size of Chamber", value: "1000 mm" },
-          { label: "Height of Chamber", value: "800 mm" },
-          { label: "Height of Extension Rings", value: "1 & 2 Running Feet" },
-          { label: "Approved Design By", value: "DELHI JAL BOARD" }
-        ],
+      { label: "Shape", value: "cone" },
+      { label: "Usage/Application", value: "Drainage" },
+      { label: "Material", value: "Concrete" },
+      { label: "Uses", value: "Sewerage, Drainage, Water Harvesting, Cabling" },
+      { label: "Grade", value: "M40" },
+      { label: "Size of Chamber", value: "1000 mm" },
+      { label: "Height of Chamber", value: "800 mm" },
+      { label: "Height of Extension Rings", value: "1 & 2 Running Feet" },
+      { label: "Approved Design By", value: "DELHI JAL BOARD" }
+    ],
     additionalSections: [
       {
         title: "RCC Manhole Riser for 1000 mm Manhole",
-        gallery: ["/riser11.jpeg", "/riser10.jpeg", "/manhole3.png"],
+        gallery: ["/riser11.jpeg", "/riser10.jpeg"],
         isDescriptionOnly: true,
         fullDescription: ["Extra per meter depth of 1.0 m internal dia circular Pre-cast RCC M-40 grade manhole beyond 1.125 m for 250mm (ID) pipe and 1.18m for 300mm (ID) pipe, upto I.L. 1.67m depth built with 1.0 m internal dia Precast risers of M-40 grade RCC circular risers of height 150/300 mm and wall thickness of 125 mm duly fitted with SFRC Foot rests."]
       },
@@ -113,7 +116,7 @@ const productData = {
       },
       {
         title: "RCC Manhole Riser for 1200 mm Manhole",
-        gallery: ["/manhole10.jpeg", "/riser9.jpeg", "/manhole3.png"],
+        gallery: ["/manhole10.jpeg", "/riser9.jpeg"],
         isDescriptionOnly: true,
         fullDescription: ["Extra per meter depth of 1.20 m internal dia circular Pre-cast RCC M-40 grade manhole beyond 1.67 m up to IL 2.28m depth built with 1.20 m internal dia Precast risers of M-40 grade RCC circular risers of height 150/225/300/600/900 mm and wall thickness of 125 mm duly fitted with SFRC Foot rests."]
       },
@@ -135,7 +138,7 @@ const productData = {
       },
       {
         title: "RCC Manhole Riser for 1500 mm Manhole",
-        gallery: ["/riser7.jpeg", "/riser8.jpeg", "/manhole3.png"],
+        gallery: ["/riser7.jpeg", "/riser8.jpeg"],
         isDescriptionOnly: true,
         fullDescription: ["Extra per meter depth of 1.50 m internal dia circular Pre-cast RCC M-40 grade manhole beyond 2.28 m up to IL 11.27m depth built with 1.50 m internal dia Precast risers of M-40 grade RCC circular risers of height 150/225/300/600/900/1200 mm and wall thickness of 125 mm duly fitted with SFRC Foot rests."]
       }
@@ -145,7 +148,7 @@ const productData = {
     titlePrefix: "RCC Sign Board & Plot Indicator",
     badge: "Property Marking",
     descTop: "Precast concrete sign boards and plot indicators for clear, long-lasting property marking.",
-        overallDescription: [
+    overallDescription: [
       "Our Precast Concrete Sign Boards and Plot Indicators provide a robust, highly visible solution for property marking and directions. Manufactured to precise specifications to ensure durability against weather and impact.",
       "Engineered from high-grade reinforced concrete, these markers are designed to withstand harsh environmental conditions, including heavy rain, intense sunlight, and accidental impacts, ensuring that your markings remain clear and legible for years to come.",
       "Whether you need clear boundary demarcation for residential plots, directional signage for highways, or informational boards for commercial zones, our versatile precast solutions offer unparalleled longevity and low maintenance compared to traditional metal or wooden signs."
@@ -197,36 +200,50 @@ const productData = {
       }
     ]
   },
-  RAILWAY_COPPING_STONE: {
-    titlePrefix: "Railway Copping Stone",
+  RAILWAY_COPING_STONE: {
+    titlePrefix: "Railway Coping Stone",
     badge: "Railway Standards",
-    descTop: "Specialized precast copping stones designed to railway standards for platform edges.",
-        overallDescription: [
-      "Our Precast Concrete Railway Copping Stones provide a robust and safe edge for railway platforms. Manufactured to precise specifications to ensure durability and safety.",
+    descTop: "Specialized precast coping stones designed to railway standards for platform edges.",
+    overallDescription: [
+      "Our Precast Concrete Railway Coping Stones provide a robust and safe edge for railway platforms. Manufactured to precise specifications to ensure durability and safety.",
       "Designed specifically for high-traffic environments, these stones offer exceptional resistance to weathering and wear. Their anti-slip surfaces ensure passenger safety while facilitating smooth transitions between platforms and trains.",
-      "Available in a variety of dimensions and finishes to meet diverse project requirements, our copping stones are the ideal choice for modernizing railway infrastructure and maintaining the highest safety standards across the network."
+      "Available in a variety of dimensions and finishes to meet diverse project requirements, our coping stones are the ideal choice for modernizing railway infrastructure and maintaining the highest safety standards across the network."
     ],
     heroImage: "/prod10.png",
     heroImageFit: "cover",
-    gallery: ["/prod10.png"],
+    gallery: ["/copping-stone1.jpeg", "/copping-stone3.jpeg", "/copping-stone2.jpeg"],
     bulletPoints: [],
     implementationFeatures: [
       { cat: "Railway Stations", desc: "Provides a safe, demarcated edge for passenger platforms." },
       { cat: "Industrial Depots", desc: "Durable edge protection for heavy loading and unloading zones." },
-      { cat: "Metro Stations", desc: "Aesthetic and high-strength copping stones for modern transit systems." }
+      { cat: "Metro Stations", desc: "Aesthetic and high-strength coping stones for modern transit systems." }
     ],
     specsTable: [
-      { label: "Product Type", value: "Railway Copping Stone - Type 1" },
+      { label: "Product Type", value: "Railway Coping Stone - Type 1" },
+      { label: "Size", value: "1125 X 530 X 100 mm" },
+      { label: "Dimensions", value: "Length X Breadth X Thickness" },
       { label: "Material", value: "High-strength Concrete" },
       { label: "Grade", value: "M-30" }
     ],
     additionalSections: [
       {
-        title: "Railway Copping Stone - Type 2",
-        gallery: ["/prod10.png"],
+        gallery: ["/prod10.png", "/copping-stone4.jpeg", "/copping-stone.jpeg"],
         bulletPoints: [],
         specsTable: [
-          { label: "Product Type", value: "Railway Copping Stone - Type 2" },
+          { label: "Product Type", value: "Railway Coping Stone - Type 2" },
+          { label: "Size", value: "1100 X 900 X 150 mm" },
+          { label: "Dimension", value: "Length X Breadth X Thickness" },
+          { label: "Material", value: "High-strength Concrete" },
+          { label: "Grade", value: "M-30" }
+        ]
+      },
+      {
+        title: "Precast Coping Wall",
+        gallery: ["/copping-wall1.jpeg", "/copping-wall2.jpeg", "/copping-wall.png"],
+        bulletPoints: [],
+        specsTable: [
+          { label: "Product Type", value: "Precast Coping Wall" },
+          { label: "Dimensions", value: "1540 X 980 mm" },
           { label: "Material", value: "High-strength Concrete" },
           { label: "Grade", value: "M-30" }
         ]
@@ -281,8 +298,8 @@ const productData = {
     descTop: "Heavy-duty precast RCC drain channel engineered for high-volume stormwater discharge in roads, highways, and industrial zones.",
     heroImage: "/prod1.png",
     heroVideo: "/prod-video-2.mp4",
-        bulletPoints: ["Grade : M-30 to M-60"],
-gallery: ["/img1.png", "/img2.png", "/img3.png", "/img4.png", "/img5.png"],
+    bulletPoints: ["Grade : M-30 to M-60"],
+    gallery: ["/img1.png", "/img2.png", "/img3.png", "/img4.png", "/img5.png"],
     specsImage: "/U-drain.avif",
     diagramImage: "/u-drain-d.png",
     implementationFeatures: [
@@ -298,8 +315,8 @@ gallery: ["/img1.png", "/img2.png", "/img3.png", "/img4.png", "/img5.png"],
     descTop: "Light-duty precast RCC drain channel designed for efficient stormwater management in pedestrian areas and light traffic zones.",
     heroImage: "/t6.png",
     heroVideo: "/hero-bg-3.mp4",
-        bulletPoints: ["Grade : M-30 to M-60"],
-gallery: ["/t6-1.1.png", "/t6-2.png", "/t6-3.png", "/t6-4.png"],
+    bulletPoints: ["Grade : M-30 to M-60"],
+    gallery: ["/t6-1.1.png", "/t6-2.png", "/t6-3.png", "/t6-4.png"],
     specsImage: "/t6-6.png",
     diagramImage: "/t6-7.png",
     implementationFeatures: [
@@ -315,8 +332,8 @@ gallery: ["/t6-1.1.png", "/t6-2.png", "/t6-3.png", "/t6-4.png"],
     descTop: "High-quality precast concrete flume for controlled water flow and agricultural drainage systems.",
     heroImage: "/ft-flume.png",
     heroVideo: "/prod-video-1.mp4",
-        bulletPoints: ["Grade : M-30 to M-60"],
-gallery: ["/ft-1.png", "/ft-2.png", "/ft-3.png", "/ft-4.png"],
+    bulletPoints: ["Grade : M-30 to M-60"],
+    gallery: ["/ft-1.png", "/ft-2.png", "/ft-3.png", "/ft-4.png"],
     specsImage: "/ft-6.png",
     diagramImage: "/ft-7.png",
     implementationFeatures: [
@@ -665,7 +682,7 @@ gallery: ["/ft-1.png", "/ft-2.png", "/ft-3.png", "/ft-4.png"],
       "Enhances the longevity of utility infrastructure"
     ],
     galleryTitle: "Manhole Cover - Type 01",
-    gallery: ["/manhole1.png", "/manhole2.png", "/manhole3.png"],
+    gallery: ["/manhole1.png", "/manhole11.png", "/manhole3.png", "/manhole2.png"],
     fullDescription: [
       "High-quality manhole cover — Type 01 suitable for various infrastructure projects."
     ],
@@ -750,8 +767,8 @@ gallery: ["/ft-1.png", "/ft-2.png", "/ft-3.png", "/ft-4.png"],
     descTop: "Precast Concrete Earth Retaining Walls engineered for maximum stability, soil retention, and rapid installation.",
     heroImage: "/earth-wall.png",
     heroVideo: "/wall-bg.mp4",
-        bulletPoints: ["Grade : M-30 to M-60"],
-gallery: ["/earth-wall.png", "/earth-wall-2.png", "/earth-wall-3.png", "/earth-wall-4.png"],
+    bulletPoints: ["Grade : M-30 to M-60"],
+    gallery: ["/earth-wall.png", "/earth-wall-2.png", "/earth-wall-3.png", "/earth-wall-4.png"],
     fullDescription: [
       "The Earth Retaining Wall is a precast L-shaped reinforced concrete system used for soil retention, slope stabilization, and erosion control. Each panel is cast to precise dimensions in a controlled factory environment and is available in heights from 600 mm to 3000 mm with a standard panel length of 2000 mm, allowing walls to be built quickly and to a consistent finish.",
       "The structure is engineered for stability with a sliding safety factor of 1.5 or greater, designed against a soil internal-friction angle of 30° and an overburden load of 10 kN/m². Precast construction removes the need for extensive site formwork and curing, speeding up project timelines. The Earth Retaining Wall is well suited to embankments, road and rail formations, landscaping, and any site where reliable, long-lasting soil retention is required."
@@ -822,14 +839,16 @@ gallery: ["/earth-wall.png", "/earth-wall-2.png", "/earth-wall-3.png", "/earth-w
       { label: "Material", value: "High-strength Reinforced Concrete (typically M30 to M50 grade)" },
 
       { label: "Grade", value: "M-30 to M-50" },
-      { label: "Standard Dimensions", value: (
-        <>
-          Base Width: 600 mm – 610 mm (~24 inches)<br />
-          Top Width: 150 mm – 200 mm (~6-8 inches)<br />
-          Height: 810 mm – 900 mm (~32-36 inches)<br />
-          Length: Typically 2.5 m, 3.0 m, or customized
-        </>
-      ) },
+      {
+        label: "Standard Dimensions", value: (
+          <>
+            Base Width: 600 mm – 610 mm (~24 inches)<br />
+            Top Width: 150 mm – 200 mm (~6-8 inches)<br />
+            Height: 810 mm – 900 mm (~32-36 inches)<br />
+            Length: Typically 2.5 m, 3.0 m, or customized
+          </>
+        )
+      },
       { label: "Profile Design", value: "Symmetrical or Asymmetrical dual-slope face (a shallow lower slope to intercept vehicle tires, and a steeper upper slope to redirect the vehicle body)" },
       { label: "Reinforcement", value: "High-Yield Strength Deformed (HYSD) / TMT Steel Bars (typically 8mm to 12mm diameter for main and distribution bars)" },
       { label: "Connection / Joints", value: "Interlocking J-J hooks, steel pin and wire rope loop, or tongue-and-groove joints for continuous chain alignment" },
@@ -866,13 +885,15 @@ gallery: ["/earth-wall.png", "/earth-wall-2.png", "/earth-wall-3.png", "/earth-w
       { label: "Product Type", value: "Precast Concrete Crash Barrier (e.g., Jersey or F-Shape)" },
       { label: "Material", value: "High-strength Reinforced Precast Concrete (typically M30 to M50 grade)" },
 
-      { label: "Typical Dimensions", value: (
-        <>
-          Length: 3000 mm – 3040 mm<br />
-          Height: 900 mm – 1000 mm<br />
-          Base Width: 500 mm – 610 mm
-        </>
-      ) },
+      {
+        label: "Typical Dimensions", value: (
+          <>
+            Length: 3000 mm – 3040 mm<br />
+            Height: 900 mm – 1000 mm<br />
+            Base Width: 500 mm – 610 mm
+          </>
+        )
+      },
       { label: "Reinforcement", value: "HYSD / TMT Steel Bars (typically 8mm and 10mm diameter)" },
       { label: "Section", value: "Asymmetrical (Single-sided) or Symmetrical (Double-sided) sloped profile" },
       { label: "Joint", value: "Interlocking tongue and groove, steel pin and loop, or butt joint" },
@@ -1126,40 +1147,40 @@ export default function UDrainLandingPage({ productType = "T25" }) {
   };
   return (
     <div className="w-full bg-[#f4f4f4] text-[#333333] font-body min-h-screen">
-      
+
       {/* =========================================
           HERO SECTION
           ========================================= */}
-      <section className={`relative w-full ${data.heroVideo ? 'aspect-video' : 'aspect-[4/5] sm:aspect-square'} md:min-h-screen md:aspect-auto flex flex-col justify-center items-center pt-12 pb-4 md:pt-24 md:pb-12 overflow-hidden bg-[#111]`}>
+      <section className="relative w-full min-h-[60vh] py-16 md:py-0 md:min-h-screen md:aspect-auto flex flex-col justify-center items-center md:pt-24 md:pb-12 overflow-hidden bg-[#111]">
         {/* Full width background media */}
         <div className="absolute inset-0 z-0 bg-[#111]">
           {data.heroVideo ? (
-            <video 
-              src={data.heroVideo} 
-              autoPlay 
-              loop 
-              muted 
+            <video
+              src={data.heroVideo}
+              autoPlay
+              loop
+              muted
               playsInline
-              className="w-full h-full object-contain md:object-cover"
+              className="w-full h-full object-cover"
             />
           ) : (
             <img src={data.heroImage} alt={data.titlePrefix} className={`w-full h-full ${data.heroImageFit === 'contain' ? 'object-contain' : data.heroImageFit === 'fill' ? 'object-contain md:object-fill' : 'object-cover'}`} />
           )}
         </div>
-        
+
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black/50 z-10 pointer-events-none"></div>
 
         <div className="relative z-20 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="font-display font-900 text-2xl sm:text-4xl md:text-6xl lg:text-7xl text-white uppercase tracking-tighter mb-2 md:mb-6 drop-shadow-xl"
           >
             {data.titlePrefix} <span className="text-gray-400 font-300 inline-block mx-1 md:mx-2">|</span> {data.badge}
           </motion.h1>
-          
-          <motion.p 
+
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
@@ -1167,13 +1188,13 @@ export default function UDrainLandingPage({ productType = "T25" }) {
           >
             {data.descTop}
           </motion.p>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            <button 
+            <button
               onClick={() => setInquiryOpen(true)}
               className="bg-white text-[#111] px-3 py-1.5 md:px-8 md:py-4 text-[10px] md:text-base font-display font-bold uppercase tracking-wider hover:bg-[#0066B3] hover:text-white transition-colors flex items-center gap-1.5 md:gap-3 mx-auto shadow-lg"
             >
@@ -1189,10 +1210,10 @@ export default function UDrainLandingPage({ productType = "T25" }) {
       {data.overallDescription && (
         <section className="py-16 bg-white border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className={`flex flex-col ${(isPaver || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) ? 'items-center text-center' : 'lg:flex-row gap-16 items-center'}`}>
-              
+            <div className={`flex flex-col ${(isPaver || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) ? 'items-center text-center' : 'lg:flex-row gap-16 items-center'}`}>
+
               {/* Left Column: Text & Bullets */}
-              <div className={`w-full ${(isPaver || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) ? 'max-w-4xl' : 'lg:w-1/2'}`}>
+              <div className={`w-full ${(isPaver || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) ? 'max-w-4xl' : 'lg:w-1/2'}`}>
                 {data.overallTitle && (
                   <h2 className="font-display font-900 text-3xl md:text-4xl text-[#222] mb-6 tracking-tight">
                     {data.overallTitle}
@@ -1202,7 +1223,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                   {data.overallDescription.map((p, i) => <p key={i}>{p}</p>)}
                 </div>
                 {data.overallBulletPoints && (
-                  <div className={`grid sm:grid-cols-2 gap-4 ${(isPaver || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) ? 'text-left max-w-3xl mx-auto' : ''}`}>
+                  <div className={`grid sm:grid-cols-2 gap-4 ${(isPaver || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) ? 'text-left max-w-3xl mx-auto' : ''}`}>
                     {data.overallBulletPoints.map((point, i) => (
                       <div key={i} className="flex items-center gap-3 bg-gray-50 p-4 rounded-lg border border-gray-100">
                         <div className="flex-shrink-0 w-6 h-6 rounded-full border border-gray-300 flex items-center justify-center bg-white shadow-sm">
@@ -1216,15 +1237,15 @@ export default function UDrainLandingPage({ productType = "T25" }) {
               </div>
 
               {/* Right Column: New Main Image */}
-              {(!isPaver && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER')) && (
-                <div 
+              {(!isPaver && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER')) && (
+                <div
                   className="w-full lg:w-1/2 mt-8 lg:mt-0 cursor-pointer group"
                   onClick={() => setLightboxImage("/kerb1.png")}
                 >
                   <img src="/kerb1.png" alt="Precast Kerb Stone" className="w-full h-auto object-contain rounded-xl drop-shadow-sm transition-transform duration-300 group-hover:scale-105" />
                 </div>
               )}
-              
+
             </div>
           </div>
         </section>
@@ -1241,21 +1262,21 @@ export default function UDrainLandingPage({ productType = "T25" }) {
             </div>
           )}
           <div className={`flex flex-col gap-8 lg:gap-12 items-center ${(productType === 'KERB_STONE' || productType === 'CHEQUERED_TILES' || isPaver) ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
-            
+
             {/* Left Column: Images */}
             <div className={`w-full ${(isPaver) ? 'lg:w-[60%]' : ((productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) ? 'lg:w-[55%]' : 'lg:w-1/2'}`}>
               {data.gallery.length === 2 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {/* First column: Image */}
-                  <div 
+                  <div
                     onClick={() => setLightboxImage(data.gallery[0])}
                     className="w-full h-auto bg-[#f4f4f4] border border-gray-200 relative overflow-hidden flex items-center justify-center p-4 cursor-pointer group"
                   >
                     <img src={data.gallery[0]} alt={`${data.titlePrefix} Detail 1`} className="w-full h-auto object-contain transition-transform duration-300 group-hover:scale-105" />
                   </div>
-                  
+
                   {/* Second column: Image 2 */}
-                  <div 
+                  <div
                     onClick={() => setLightboxImage(data.gallery[1])}
                     className="w-full h-auto bg-[#f4f4f4] border border-gray-200 relative overflow-hidden flex items-center justify-center p-2 md:p-4 cursor-pointer group"
                   >
@@ -1264,7 +1285,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                 </div>
               ) : (
                 <>
-                  <div 
+                  <div
                     className="w-full bg-[#f4f4f4] mb-4 border border-gray-200 relative overflow-hidden flex items-center justify-center p-4 md:p-6 cursor-pointer group rounded-lg"
                     onClick={() => setLightboxImage(data.gallery[0])}
                   >
@@ -1273,8 +1294,8 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                   {data.gallery.length > 1 && (
                     <div className={`grid gap-4 ${data.gallery.length - 1 === 2 ? 'grid-cols-2' : data.gallery.length - 1 === 3 ? 'grid-cols-3' : 'grid-cols-4'}`}>
                       {data.gallery.slice(1).map((imgUrl, index) => (
-                        <div 
-                          key={index} 
+                        <div
+                          key={index}
                           onClick={() => setLightboxImage(imgUrl)}
                           className="aspect-video bg-[#f4f4f4] border border-gray-200 flex items-center justify-center overflow-hidden cursor-pointer p-2"
                         >
@@ -1289,24 +1310,24 @@ export default function UDrainLandingPage({ productType = "T25" }) {
 
             {/* Right Column: Text */}
             <div className={`w-full ${(isPaver) ? 'lg:w-[40%]' : ((productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) ? 'lg:w-[45%]' : 'lg:w-1/2'} pt-4`}>
-              {(productType !== 'KERB_STONE' && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER') && !isPaver) && (
+              {(productType !== 'KERB_STONE' && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER') && !isPaver) && (
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gray-100 border border-gray-200 mb-6">
                   <div className="w-2 h-2 rounded-full bg-[#0066B3]"></div>
                   <span className="font-mono text-xs uppercase tracking-widest text-gray-600 font-bold">Service overview</span>
                 </div>
               )}
-              
-              {((productType !== 'KERB_STONE' && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER') && !isPaver) || productType === 'SFRC_RAILING') && (
+
+              {((productType !== 'KERB_STONE' && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER') && !isPaver) || productType === 'SFRC_RAILING') && (
                 <h2 className="font-display font-900 text-4xl text-[#222] mb-8">{data.galleryTitle || "Product Description"}</h2>
               )}
-              
-              {(productType === 'KERB_STONE' || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER') || isPaver) ? (
+
+              {(productType === 'KERB_STONE' || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER') || isPaver) ? (
                 <div className="w-full h-full flex flex-col justify-center">
                   <h3 className="font-display font-900 text-2xl text-[#222] mb-6 uppercase tracking-wider text-center lg:text-left">Specifications</h3>
                   <div className="w-full border-t border-l border-r border-gray-200 bg-white shadow-sm">
                     <table className="w-full text-left font-body text-[13px] md:text-sm text-gray-600">
                       <tbody>
-                        {(((productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) && data.specsTable) ? data.specsTable : (productType === 'KERB_STONE' ? [
+                        {(((productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) && data.specsTable) ? data.specsTable : (productType === 'KERB_STONE' ? [
                           { label: 'Product Type', value: 'Precast Concrete Kerb Stone' },
                           { label: 'Material', value: 'PCC / High-strength Concrete' },
 
@@ -1406,7 +1427,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                       <p className="font-body text-gray-600 text-lg leading-relaxed mb-6">
                         Introducing the Heavy-Duty Precast RCC U Drain—the superior solution for modern civil infrastructure and water management.
                       </p>
-                      
+
                       <p className="font-body text-gray-600 text-lg leading-relaxed mb-6">
                         Ideal for use in urban infrastructure, highways, and industrial sites, U-Drain systems are easy to install, require minimal maintenance, and ensure long-term reliability in managing surface water runoff.
                       </p>
@@ -1440,30 +1461,30 @@ export default function UDrainLandingPage({ productType = "T25" }) {
         <section key={idx} className={`py-24 ${idx % 2 === 0 ? 'bg-gray-50' : 'bg-white'} border-b border-gray-200`}>
           <div className={`mx-auto px-4 sm:px-6 lg:px-8 ${isPaver ? 'max-w-[1536px] xl:px-12' : 'max-w-7xl'}`}>
             <div className="mb-12 text-center max-w-4xl mx-auto">
-              {((productType !== 'KERB_STONE' && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER') && !isPaver) || productType === 'SFRC_RAILING' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) && section.title && (
+              {((productType !== 'KERB_STONE' && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER') && !isPaver) || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPING_STONE' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) && section.title && (
                 <h2 className="font-display font-900 text-3xl md:text-4xl text-[#222] mb-6 uppercase tracking-wide">{typeof section.title === 'string' ? section.title.split(/(mm)/i).map((part, i) => part.toLowerCase() === 'mm' ? <span key={i} className="lowercase">mm</span> : part) : section.title}</h2>
               )}
-              {((productType === 'KERB_STONE' || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER') || isPaver)) && !section.isDescriptionOnly && section.fullDescription && section.fullDescription.map((paragraph, pIdx) => (
+              {((productType === 'KERB_STONE' || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER') || isPaver)) && !section.isDescriptionOnly && section.fullDescription && section.fullDescription.map((paragraph, pIdx) => (
                 <p key={pIdx} className="font-body text-gray-600 text-base md:text-lg leading-relaxed mb-4">
                   {paragraph}
                 </p>
               ))}
             </div>
-            <div className={`flex flex-col lg:flex-row gap-8 lg:gap-12 items-center ${((productType === 'KERB_STONE' || productType === 'CHEQUERED_TILES' || isPaver) && idx % 2 !== 0) || ((productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) && idx % 2 === 0) ? 'lg:flex-row-reverse' : ''}`}>
-              
+            <div className={`flex flex-col lg:flex-row gap-8 lg:gap-12 items-center ${((productType === 'KERB_STONE' || productType === 'CHEQUERED_TILES' || isPaver) && idx % 2 !== 0) || ((productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) && idx % 2 === 0) ? 'lg:flex-row-reverse' : ''}`}>
+
               {/* Images */}
               <div className={`w-full ${(isPaver) ? 'lg:w-[60%]' : ((productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) ? 'lg:w-[55%]' : 'lg:w-1/2'}`}>
                 {section.gallery.length === 2 ? (
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {/* First column: Image */}
-                    <div 
+                    <div
                       onClick={() => setLightboxImage(section.gallery[0])}
                       className="w-full h-auto bg-[#f4f4f4] border border-gray-200 relative overflow-hidden flex items-center justify-center p-2 md:p-3 cursor-pointer group"
                     >
                       <img src={section.gallery[0]} alt={`${data.titlePrefix} Detail ${idx + 2}-1`} className="w-full h-auto object-contain transition-transform duration-300 group-hover:scale-105" />
                     </div>
                     {/* Second column: Image 2 */}
-                    <div 
+                    <div
                       onClick={() => setLightboxImage(section.gallery[1])}
                       className="w-full h-auto bg-[#f4f4f4] border border-gray-200 relative overflow-hidden flex items-center justify-center p-2 md:p-3 cursor-pointer group"
                     >
@@ -1472,7 +1493,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                   </div>
                 ) : (
                   <>
-                    <div 
+                    <div
                       className="w-full bg-[#f4f4f4] mb-4 border border-gray-200 relative overflow-hidden flex items-center justify-center p-2 md:p-4 cursor-pointer group"
                       onClick={() => setLightboxImage(section.gallery[0])}
                     >
@@ -1481,8 +1502,8 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                     {section.gallery.length > 1 && (
                       <div className={`grid gap-4 ${section.gallery.length - 1 === 2 ? 'grid-cols-2' : section.gallery.length - 1 === 3 ? 'grid-cols-3' : 'grid-cols-4'}`}>
                         {section.gallery.slice(1).map((imgUrl, imgIndex) => (
-                          <div 
-                            key={imgIndex} 
+                          <div
+                            key={imgIndex}
                             onClick={() => setLightboxImage(imgUrl)}
                             className="aspect-video bg-[#f4f4f4] border border-gray-200 flex items-center justify-center overflow-hidden cursor-pointer p-2"
                           >
@@ -1497,13 +1518,13 @@ export default function UDrainLandingPage({ productType = "T25" }) {
 
               {/* Text */}
               <div className={`w-full ${(isPaver) ? 'lg:w-[40%]' : ((productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) ? 'lg:w-[45%]' : 'lg:w-1/2'} pt-4`}>
-                {(productType !== 'KERB_STONE' && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER') && !isPaver) && (
+                {(productType !== 'KERB_STONE' && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER') && !isPaver) && (
                   <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-gray-200 mb-6 shadow-sm">
                     <div className="w-2 h-2 rounded-full bg-[#0066B3]"></div>
                     <span className="font-mono text-xs uppercase tracking-widest text-gray-600 font-bold">Service overview</span>
                   </div>
                 )}
-                
+
 
 
                 {section.isDescriptionOnly ? (
@@ -1513,13 +1534,13 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                       <p key={pIdx} className="font-body text-gray-600 text-base md:text-lg leading-relaxed mb-4">{p}</p>
                     ))}
                   </div>
-                ) : (productType === 'KERB_STONE' || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER') || isPaver) ? (
+                ) : (productType === 'KERB_STONE' || productType === 'CHEQUERED_TILES' || productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER') || isPaver) ? (
                   <div className="w-full h-full flex flex-col justify-center">
                     <h3 className="font-display font-900 text-2xl text-[#222] mb-6 uppercase tracking-wider text-center lg:text-left">Specifications</h3>
                     <div className="w-full border-t border-l border-r border-gray-200 bg-white shadow-sm">
                       <table className="w-full text-left font-body text-[13px] md:text-sm text-gray-600">
                         <tbody>
-                          {(((productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) && section.specsTable) ? section.specsTable : (productType === 'KERB_STONE' ? [
+                          {(((productType === 'DRAIN_COVER' || productType === 'SFRC_RAILING' || productType === 'RAILWAY_COPING_STONE' || productType === 'SIGN_BOARD' || (productType === 'MANHOLE_CHAMBER' || productType === 'SEWER_CHAMBER')) && section.specsTable) ? section.specsTable : (productType === 'KERB_STONE' ? [
                             { label: 'Product Type', value: 'Precast Concrete Kerb Stone' },
                             { label: 'Material', value: 'PCC / High-strength Concrete' },
 
@@ -1596,9 +1617,9 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                             { label: 'Thickness', value: idx === 1 ? '60mm / 80mm / 100mm / 120mm' : idx === 2 ? '60mm / 80mm' : '60mm / 80mm / 100mm' },
                             { label: 'Tiles per sq. m', value: `${idx === 0 ? '32.5' : idx === 1 ? '35' : idx === 2 ? '32.5' : '44'} Nos.` },
                             { label: 'Application', value: 'Driveways, walkways, industrial yards' },
-                              { label: 'Finish', value: 'Smooth / Textured' }
-                            ])).filter(Boolean).map((spec, i) => (
-                              <tr key={i} className="border-b border-gray-200">
+                            { label: 'Finish', value: 'Smooth / Textured' }
+                          ])).filter(Boolean).map((spec, i) => (
+                            <tr key={i} className="border-b border-gray-200">
                               <td className="py-4 px-5 font-bold w-[30%] text-[#111] border-r border-gray-200">{spec.label}</td>
                               <td className="py-4 px-5 text-gray-600">{spec.value}</td>
                             </tr>
@@ -1639,7 +1660,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
       {/* =========================================
           PRECAST SIZES SECTION (IMAGE OVERRIDE)
           ========================================= */}
-      {(productType !== 'KERB_STONE' && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER') && !isPaver) && (
+      {(productType !== 'KERB_STONE' && productType !== 'CHEQUERED_TILES' && productType !== 'DRAIN_COVER' && productType !== 'SFRC_RAILING' && productType !== 'RAILWAY_COPING_STONE' && productType !== 'SIGN_BOARD' && (productType !== 'MANHOLE_CHAMBER' && productType !== 'SEWER_CHAMBER') && !isPaver) && (
         <section className="py-24 bg-[#f9f9f9] border-y border-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="w-full flex justify-center items-center">
@@ -1660,9 +1681,9 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                   </div>
                 </div>
               ) : (
-                <img 
-                  src={data.specsImage} 
-                  alt={`${data.titlePrefix} Specifications`} 
+                <img
+                  src={data.specsImage}
+                  alt={`${data.titlePrefix} Specifications`}
                   className="w-full max-w-5xl h-auto object-contain border border-gray-200 shadow-sm bg-white"
                 />
               )}
@@ -1841,7 +1862,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
       <section className="py-24 bg-[#111111] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-16">
-            
+
             {/* Left Column */}
             <div className="w-full lg:w-1/3">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 mb-6">
@@ -1877,10 +1898,10 @@ export default function UDrainLandingPage({ productType = "T25" }) {
       {data.diagramImage && (
         <section className="py-16 bg-white border-b border-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">
-            <img 
-              src={data.diagramImage} 
-              alt={`${data.titlePrefix} Diagram`} 
-              className="w-full max-w-5xl h-auto object-contain" 
+            <img
+              src={data.diagramImage}
+              alt={`${data.titlePrefix} Diagram`}
+              className="w-full max-w-5xl h-auto object-contain"
             />
           </div>
         </section>
@@ -1897,7 +1918,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
           <section className="py-16 bg-white border-b border-gray-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex flex-col lg:flex-row gap-16 items-center">
-                
+
                 {/* Left Column: Text */}
                 <div className="w-full lg:w-1/2">
                   <h2 className="font-display font-900 text-3xl md:text-4xl text-[#222] mb-6 tracking-tight">
@@ -1914,13 +1935,13 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                 </div>
 
                 {/* Right Column: New Main Image */}
-                <div 
+                <div
                   className="w-full lg:w-1/2 cursor-pointer group"
                   onClick={() => setLightboxImage("/saucer.png")}
                 >
                   <img src="/saucer.png" alt="Saucer Drain" className="w-full h-auto object-contain rounded-xl drop-shadow-sm transition-transform duration-300 group-hover:scale-105" />
                 </div>
-                
+
               </div>
             </div>
           </section>
@@ -1932,7 +1953,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
             <section key={idx} className={`py-24 border-b border-gray-100 ${idx === 1 ? 'bg-[#f9f9f9]' : 'bg-white'}`}>
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className={`flex flex-col gap-16 items-start ${idx === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
-                  
+
                   {/* Left Column: Specs Table */}
                   <div className="w-full lg:w-1/2">
                     <div className="w-full h-full flex flex-col justify-center max-w-xl">
@@ -1964,7 +1985,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                   </div>
 
                   {/* Right Column: Dimensional Image */}
-                  <div 
+                  <div
                     className="w-full lg:w-1/2 cursor-pointer group"
                     onClick={() => setLightboxImage("/saucer1.png")}
                   >
@@ -1982,7 +2003,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
           {data.implementationFeatures && (
             <section className="py-24 bg-[#111]">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-16">
-                
+
                 {/* Left Column: Heading */}
                 <div className="w-full lg:w-1/3">
                   <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 mb-6">
@@ -2028,7 +2049,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
           <section className="py-16 bg-white border-b border-gray-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex flex-col items-center text-center">
-                
+
                 {/* Left Column: Text */}
                 <div className="w-full max-w-4xl">
                   <h2 className="font-display font-900 text-3xl md:text-4xl text-[#222] mb-6 tracking-tight">
@@ -2053,7 +2074,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
             <section key={idx} className={`py-24 border-b border-gray-100 ${idx === 1 ? 'bg-[#f9f9f9]' : 'bg-white'}`}>
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className={`flex flex-col gap-16 items-start ${idx === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
-                  
+
                   {/* Left Column: Specs Table */}
                   <div className="w-full lg:w-1/2">
                     <div className="w-full h-full flex flex-col justify-center max-w-xl">
@@ -2089,7 +2110,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                   <div className="w-full lg:w-1/2 lg:mt-14">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {tile.images.map((img, imgIdx) => (
-                        <div 
+                        <div
                           key={imgIdx}
                           className="w-full h-auto bg-[#f4f4f4] border border-gray-200 relative overflow-hidden flex items-center justify-center p-2 md:p-3 cursor-pointer group"
                           onClick={() => setLightboxImage(img)}
@@ -2113,7 +2134,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
       <section className="py-24 bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-16 items-center">
-            
+
             {/* Left Column */}
             <div className="w-full lg:w-1/3">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-gray-200 shadow-sm mb-6">
@@ -2127,7 +2148,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
             <div className="w-full lg:w-2/3 relative mt-12 lg:mt-0">
               {/* Connecting Line */}
               <div className="absolute top-8 left-0 w-full h-[2px] bg-gray-200 -translate-y-1/2 z-0 hidden md:block"></div>
-              
+
               <div className="flex flex-col md:flex-row justify-between relative z-10 gap-8 md:gap-0">
                 {/* Step 1 */}
                 <div className="flex flex-col items-center">
@@ -2148,7 +2169,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
                   <div className="w-16 h-16 rounded-full bg-[#0066B3] flex justify-center items-center text-white mb-4 shadow-lg shadow-blue-500/30">
                     <span className="font-display font-900 text-xl">3</span>
                   </div>
-                  <h4 className="font-display font-bold text-sm uppercase text-[#222] text-center">Final inspection<br/>& dispatch</h4>
+                  <h4 className="font-display font-bold text-sm uppercase text-[#222] text-center">Final inspection<br />& dispatch</h4>
                 </div>
               </div>
             </div>
@@ -2167,7 +2188,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
             onClick={() => setLightboxImage(null)}
             className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-4 md:p-8 cursor-pointer"
           >
-            <button 
+            <button
               className="absolute top-6 right-6 md:top-8 md:right-8 text-white hover:text-gray-300 transition-colors z-[110]"
               onClick={() => setLightboxImage(null)}
             >

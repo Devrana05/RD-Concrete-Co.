@@ -116,10 +116,10 @@ function CatalogContent() {
               { id: "tiles", name: "CHEQUERED TILES", image: "/prod3.png", desc: "Anti-skid chequered tiles ideal for footpaths, parking lots, and high-traffic pedestrian areas." },
               { id: "cool-roof", name: "MANHOLE COVER & FRAME", image: "/prod7.png", desc: "Heavy-duty precast manhole covers and frames built to withstand heavy traffic loads." },
               { id: "manhole-chamber", name: "PRECAST CONCRETE MANHOLE", image: "/prod15.png", desc: "Comprehensive precast manhole chambers for efficient underground sewage and drainage systems." },
-              { id: "heritage", name: "RAILWAY COPPING STONE", image: "/prod10.png", desc: "Specialized precast copping stones designed to railway standards for platform edges." },
+              { id: "heritage", name: "RAILWAY COPING STONE", image: "/prod10.png", desc: "Specialized precast coping stones designed to railway standards for platform edges." },
               { id: "parking", name: "SFRC RAILING", image: "/railing2.jpeg", desc: "Steel Fiber Reinforced Concrete (SFRC) railings for enhanced durability and aesthetics." },
               { id: "granito", name: "RCC SIGN BOARD & PLOT INDICATOR", image: "/prod11.png", desc: "Precast concrete sign boards and plot indicators for clear, long-lasting property marking." },
-              { id: "drain-cover", name: "CONCRETE DRAIN COVER", image: "/prod7.png", desc: "High-quality precast concrete drain covers for urban infrastructure and public safety." },
+              { id: "drain-cover", name: "CONCRETE DRAIN COVER", image: "/drain-cover.jpeg", desc: "High-quality precast concrete drain covers for urban infrastructure and public safety." },
               { id: "sewer-chamber", name: "CIRCULAR HOUSE SEWER CONNECTION CHAMBER", image: "/prod15.png", desc: "High-quality precast circular house sewer connection chambers for residential and municipal drainage." },
             ].map((cat) => (
               <button 
@@ -424,7 +424,7 @@ function CatalogContent() {
         >
           &lt; Back to Hub
         </button>
-        <UDrainLandingPage productType="RAILWAY_COPPING_STONE" />
+        <UDrainLandingPage productType="RAILWAY_COPING_STONE" />
       </div>
     );
   }

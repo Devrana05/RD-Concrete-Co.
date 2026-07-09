@@ -9,7 +9,7 @@ export const categories = [
   { id: "chequered-tiles", name: "Chequered Tiles" },
   { id: "manhole-cover", name: "Manhole Cover & Frame" },
   { id: "manhole-chamber", name: "Precast Concrete Manhole" },
-  { id: "railway-copping", name: "Railway Copping Stone" },
+  { id: "railway-coping", name: "Railway Coping Stone" },
   { id: "sfrc-railing", name: "SFRC Railing" },
   { id: "rcc-sign-board", name: "RCC Sign Board & Indicator" }
 ];
