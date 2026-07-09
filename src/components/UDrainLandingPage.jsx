@@ -220,7 +220,7 @@ const productData = {
     ],
     heroImage: "/prod10.png",
     heroImageFit: "cover",
-    gallery: ["/copping-stone1.jpeg", "/copping-stone3.jpeg", "/copping-stone2.jpeg"],
+    gallery: ["/copping-stone1.jpeg", "/copping-stone3.png", "/copping-stone2.jpeg"],
     bulletPoints: [],
     implementationFeatures: [
       { cat: "Railway Stations", desc: "Provides a safe, demarcated edge for passenger platforms." },

@@ -7,11 +7,22 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
           {/* Company */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-3 mb-4 -ml-1">
+            <div className="flex items-center gap-2 md:gap-4 mb-4 -ml-1 flex-shrink-0">
               <img src="/logo.png" alt="R.D. Concrete Co. Logo" className="h-10 md:h-14 w-auto object-contain mix-blend-multiply" />
-              <span className="font-display font-bold text-ink text-2xl md:text-3xl tracking-wider uppercase mt-1 whitespace-nowrap">
-                RD CONCRETE CO.
-              </span>
+              <div className="flex flex-col justify-center">
+                <span className="font-display font-bold text-ink text-[10px] md:text-xs tracking-widest uppercase mb-[-2px] md:mb-[-4px]">
+                  Since 2005
+                </span>
+                <span className="font-display font-bold text-ink text-2xl md:text-3xl tracking-wider uppercase leading-none whitespace-nowrap">
+                  RD CONCRETE CO.
+                </span>
+                <div className="flex items-center gap-1.5 md:gap-2 mt-1 md:mt-1.5">
+                  <div className="h-[3px] md:h-[3.5px] flex-grow bg-[#C89B5C]"></div>
+                  <span className="font-display font-bold text-ink/90 text-[10px] md:text-xs tracking-widest uppercase whitespace-nowrap">
+                    WE BUILD STRENGTH & QUALITY
+                  </span>
+                </div>
+              </div>
             </div>
             <p className="text-sm text-[#5a5a5a] leading-relaxed mb-6">
               Manufacturer of quality precast concrete products since 2005.

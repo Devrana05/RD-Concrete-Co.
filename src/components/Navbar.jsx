@@ -27,9 +27,20 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 md:gap-4 no-underline flex-shrink-0">
               <img src="/logo.png" alt="R.D. Concrete Co. Logo" className="h-10 sm:h-12 md:h-24 w-auto object-contain mix-blend-multiply" />
-              <span className="font-display font-bold text-ink text-xl sm:text-2xl md:text-4xl tracking-wider uppercase mt-1">
-                RD CONCRETE CO.
-              </span>
+              <div className="flex flex-col justify-center">
+                <span className="font-display font-bold text-ink text-[10px] sm:text-xs md:text-sm tracking-widest uppercase mb-[-2px] md:mb-[-4px]">
+                  Since 2005
+                </span>
+                <span className="font-display font-bold text-ink text-xl sm:text-2xl md:text-4xl tracking-wider uppercase leading-none">
+                  RD CONCRETE CO.
+                </span>
+                <div className="flex items-center gap-1.5 md:gap-2 mt-1 md:mt-1.5">
+                  <div className="h-[3px] md:h-[4px] flex-grow bg-[#C89B5C]"></div>
+                  <span className="font-display font-bold text-ink/90 text-[10px] sm:text-xs md:text-sm tracking-widest uppercase whitespace-nowrap">
+                    WE BUILD STRENGTH & QUALITY
+                  </span>
+                </div>
+              </div>
             </Link>
 
             {/* Desktop Nav (Centered) */}

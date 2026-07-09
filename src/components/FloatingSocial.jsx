@@ -28,7 +28,7 @@ export default function FloatingSocial() {
   const socials = [
     {
       label: "WhatsApp",
-      href: "https://wa.me/91XXXXXXXXXX",
+      href: "https://wa.me/9992554620",
       bg: "#25D366",
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
