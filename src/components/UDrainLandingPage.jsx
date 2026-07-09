@@ -172,22 +172,10 @@ const productData = {
     additionalSections: [
       {
         title: "Plot Indicator - Type 2",
-        gallery: ["/sign3.jpeg", "/sign4.png"],
+        gallery: ["/sign3.jpeg", "/sign6.png"],
         bulletPoints: [],
         specsTable: [
           { label: "Product Type", value: "Plot Indicator - Type 2" },
-          { label: "Size", value: "1100 X 450 X 25 mm" },
-          { label: "Dimensions", value: "Height X Width X Thickness" },
-          { label: "Material", value: "Reinforced Concrete" },
-          { label: "Grade", value: "M-30" }
-        ]
-      },
-      {
-        title: "Direction Board - Type 3",
-        gallery: ["/sign5.jpeg", "/sign6.png"],
-        bulletPoints: [],
-        specsTable: [
-          { label: "Product Type", value: "Direction Board - Type 3" },
           { label: "Size", value: "2000 X 510/720 X 80/180 mm" },
           { label: "Dimensions", value: "Height X Width X Thickness" },
           { label: "Material", value: "Reinforced Concrete" },
@@ -195,13 +183,25 @@ const productData = {
         ]
       },
       {
+        title: "Direction Board - Type 3",
+        gallery: ["/sign5.jpeg", "/sign8.png"],
+        bulletPoints: [],
+        specsTable: [
+          { label: "Product Type", value: "Direction Board - Type 3" },
+          { label: "Size(Colmns)", value: "2400/1800 X 150 X 150 mm" },
+          { label: "Size(Slab)", value: "1740 X 900 X 40 mm" },
+          { label: "Dimensions", value: "Height X Width X Thickness" },
+          { label: "Material", value: "Reinforced Concrete" },
+          { label: "Grade", value: "M-30" }
+        ]
+      },
+      {
         title: "Boundary Marker - Type 4",
-        gallery: ["/sign7.jpeg", "/sign8.png"],
+        gallery: ["/sign7.jpeg", "/sign4.png"],
         bulletPoints: [],
         specsTable: [
           { label: "Product Type", value: "Boundary Marker - Type 4" },
-          { label: "Size(Columns)", value: "2400/1800 X 150 X 150 mm" },
-          { label: "Size(Slab)", value: "1740 X 900 X 40 mm" },
+          { label: "Size", value: "1100 X 450 X 25 mm" },
           { label: "Dimensions", value: "Height X Width X Thickness" },
           { label: "Material", value: "Reinforced Concrete" },
           { label: "Grade", value: "M-30" }
