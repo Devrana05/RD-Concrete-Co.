@@ -99,6 +99,7 @@ function CatalogContent() {
                 loop 
                 muted 
                 playsInline
+                preload="metadata"
                 className="w-full h-auto max-h-[500px] object-contain drop-shadow-xl" 
               />
             </div>
@@ -591,6 +592,7 @@ function CatalogContent() {
                           loop
                           muted
                           playsInline
+                          preload="metadata"
                           className="w-full h-full object-contain mix-blend-multiply"
                         />
                       ) : (

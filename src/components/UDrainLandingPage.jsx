@@ -1157,10 +1157,12 @@ export default function UDrainLandingPage({ productType = "T25" }) {
           {data.heroVideo ? (
             <video
               src={data.heroVideo}
+              poster={data.heroImage}
               autoPlay
               loop
               muted
               playsInline
+              preload="metadata"
               className="w-full h-full object-cover"
             />
           ) : (
