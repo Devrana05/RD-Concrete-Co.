@@ -80,12 +80,12 @@ function CatalogContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16">
           <div className="flex flex-col lg:flex-row gap-12 mb-16 items-center">
             <div className="lg:w-1/2">
-              <button 
-                onClick={() => window.location.href = '/'} 
-                className="border border-[#707070] text-[#707070] font-body text-xs px-3 py-1 mb-12 hover:bg-concrete-light transition-colors uppercase tracking-wider cursor-pointer"
+              <Link 
+                href="/" 
+                className="inline-block border border-[#707070] text-[#707070] font-body text-xs px-3 py-1 mb-12 hover:bg-concrete-light transition-colors uppercase tracking-wider cursor-pointer no-underline"
               >
                 &lt; Home
-              </button>
+              </Link>
               <h2 className="font-display font-300 text-3xl md:text-5xl lg:text-6xl text-ink leading-tight tracking-wide">
                 Enhancing<br />
                 <strong className="font-700">Outdoor Spaces</strong><br />

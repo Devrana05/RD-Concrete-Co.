@@ -36,6 +36,7 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
+                  prefetch={true}
                   className={`font-body font-600 text-lg md:text-xl tracking-wide transition-colors no-underline ${
                     pathname === link.href ? "text-rebar" : "text-ink hover:text-rebar"
                   }`}
