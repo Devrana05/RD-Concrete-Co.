@@ -27,7 +27,7 @@ const productData = {
       { cat: "Municipal Projects", desc: "Standardized inspection chambers for city-wide sewage networks." }
     ],
     specsTable: [
-      { label: "Product Type", value: "Sewer Connection Chamber - Section 1" },
+      { label: "Product Type", value: "Sewer Connection Chamber" },
       { label: "Size", value: "300 X 450 X 100 mm" },
       { label: "Material", value: "Reinforced Precast Concrete" },
       { label: "Grade", value: "M-30" },
@@ -39,7 +39,7 @@ const productData = {
         gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.jpeg", "/sewer4.png"],
         bulletPoints: [],
         specsTable: [
-          { label: "Product Type", value: "Sewer Connection Chamber - Section 2" },
+          { label: "Product Type", value: "Sewer Connection Chamber" },
           { label: "Size", value: "450 X 450 X 100 mm" },
           { label: "Material", value: "Reinforced Precast Concrete" },
           { label: "Grade", value: "M-30" },
@@ -51,7 +51,7 @@ const productData = {
         gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.jpeg", "/sewer5.png"],
         bulletPoints: [],
         specsTable: [
-          { label: "Product Type", value: "Sewer Connection Chamber - Section 3" },
+          { label: "Product Type", value: "Sewer Connection Chamber" },
           { label: "Size", value: "450 X 600 X 100 mm" },
           { label: "Material", value: "Reinforced Precast Concrete" },
           { label: "Grade", value: "M-30" },
@@ -155,7 +155,7 @@ const productData = {
     ],
     heroImage: "/prod11.png",
     heroImageFit: "cover",
-    gallery: ["/prod11.png"],
+    gallery: ["/sign1.png", "/sign2.png"],
     bulletPoints: [],
     implementationFeatures: [
       { cat: "Highways & Roads", desc: "Durable and weather-resistant signage for long-term road markings." },
@@ -164,36 +164,45 @@ const productData = {
     ],
     specsTable: [
       { label: "Product Type", value: "RCC Sign Board - Type 1" },
+      { label: "Size", value: "1950 X 1350 X 65 mm" },
+      { label: "Dimensions", value: "Height X Width X Thickness" },
       { label: "Material", value: "Reinforced Concrete" },
       { label: "Grade", value: "M-30" }
     ],
     additionalSections: [
       {
         title: "Plot Indicator - Type 2",
-        gallery: ["/prod11.png"],
+        gallery: ["/sign3.jpeg", "/sign4.png"],
         bulletPoints: [],
         specsTable: [
           { label: "Product Type", value: "Plot Indicator - Type 2" },
+          { label: "Size", value: "1100 X 450 X 25 mm" },
+          { label: "Dimensions", value: "Height X Width X Thickness" },
           { label: "Material", value: "Reinforced Concrete" },
           { label: "Grade", value: "M-30" }
         ]
       },
       {
         title: "Direction Board - Type 3",
-        gallery: ["/prod11.png"],
+        gallery: ["/sign5.jpeg", "/sign6.png"],
         bulletPoints: [],
         specsTable: [
           { label: "Product Type", value: "Direction Board - Type 3" },
+          { label: "Size", value: "2000 X 510/720 X 80/180 mm" },
+          { label: "Dimensions", value: "Height X Width X Thickness" },
           { label: "Material", value: "Reinforced Concrete" },
           { label: "Grade", value: "M-30" }
         ]
       },
       {
         title: "Boundary Marker - Type 4",
-        gallery: ["/prod11.png"],
+        gallery: ["/sign7.jpeg", "/sign8.png"],
         bulletPoints: [],
         specsTable: [
           { label: "Product Type", value: "Boundary Marker - Type 4" },
+          { label: "Size(Columns)", value: "2400/1800 X 150 X 150 mm" },
+          { label: "Size(Slab)", value: "1740 X 900 X 40 mm" },
+          { label: "Dimensions", value: "Height X Width X Thickness" },
           { label: "Material", value: "Reinforced Concrete" },
           { label: "Grade", value: "M-30" }
         ]

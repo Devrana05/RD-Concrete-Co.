@@ -62,9 +62,9 @@ export default function HomePage() {
       {/* 3. Overview Section */}
       <section className="bg-concrete-light py-20 md:py-32 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-12 items-center">
             {/* Left Content */}
-            <div>
+            <div className="lg:col-span-5">
               <h2 className="font-display font-600 text-4xl md:text-5xl text-rebar mb-8 tracking-wider uppercase">
                 Overview
               </h2>
@@ -99,9 +99,9 @@ export default function HomePage() {
               </div>
             </div>
             
-            {/* Right Video */}
-            <div className="relative h-[400px] lg:h-[600px] w-full rounded-lg overflow-hidden shadow-2xl bg-concrete">
-              {/* Removed video. Add new image or content here */}
+            {/* Right Video / Image */}
+            <div className="lg:col-span-7 relative w-full lg:w-[115%] xl:w-[125%] max-w-none z-10 rounded-lg overflow-hidden shadow-2xl bg-concrete flex items-center justify-center">
+              <img src="/overview.jpeg" alt="R.D. Concrete Co. Overview" className="w-full h-auto object-contain" />
             </div>
           </div>
         </div>

@@ -1,18 +1,27 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { categories } from "@/data/categories";
+import { motion, AnimatePresence } from "framer-motion";
 
-export default function InquiryModal({ isOpen, onClose }) {
+export default function InquiryModal({ isOpen, onClose, initialMessage = "" }) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
     category: "",
-    description: "",
+    description: initialMessage,
   });
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      setFormData((prev) => ({ ...prev, description: initialMessage }));
+      setSubmitted(false);
+    }
+  }, [isOpen, initialMessage]);
 
 
 
@@ -131,17 +140,46 @@ export default function InquiryModal({ isOpen, onClose }) {
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full px-4 py-3 bg-concrete-light rounded-full border-none font-body text-sm text-ink placeholder:text-graphite focus:outline-none focus:ring-2 focus:ring-rebar/30"
                   />
-                  <select
-                    value={formData.category}
-                    onChange={(e) => setFormData({ ...formData, category: e.target.value })}
-                    required
-                    className="w-full px-4 py-3 bg-concrete-light rounded-full border-none font-body text-sm text-ink focus:outline-none focus:ring-2 focus:ring-rebar/30 appearance-none cursor-pointer"
-                  >
-                    <option value="" disabled>Project Category</option>
-                    {categories.map((cat) => (
-                      <option key={cat.id} value={cat.name}>{cat.name}</option>
-                    ))}
-                  </select>
+                  <div className="relative w-full">
+                    <div
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className={`w-full px-4 py-3 bg-concrete-light rounded-full border-none font-body text-sm flex justify-between items-center cursor-pointer focus:outline-none focus:ring-2 focus:ring-rebar/30 ${!formData.category ? "text-graphite" : "text-ink"}`}
+                      tabIndex={0}
+                      onBlur={() => setTimeout(() => setDropdownOpen(false), 200)}
+                    >
+                      <span className="truncate pr-4">
+                        {formData.category || "Project Category"}
+                      </span>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={`text-graphite transition-transform duration-200 flex-shrink-0 ${dropdownOpen ? "rotate-180" : ""}`}>
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                    </div>
+
+                    <AnimatePresence>
+                      {dropdownOpen && (
+                        <motion.div 
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: "auto", opacity: 1 }}
+                          exit={{ height: 0, opacity: 0 }}
+                          transition={{ duration: 0.2, ease: "easeInOut" }}
+                          className="w-full mt-2 bg-white rounded-xl shadow-inner border border-concrete-light max-h-60 overflow-y-auto"
+                        >
+                          {categories.map((cat) => (
+                            <div
+                              key={cat.id}
+                              onClick={() => {
+                                setFormData({ ...formData, category: cat.name });
+                                setDropdownOpen(false);
+                              }}
+                              className="px-4 py-3 text-sm font-body text-graphite hover:bg-[#f4f4f4] hover:text-rebar cursor-pointer transition-colors"
+                            >
+                              {cat.name}
+                            </div>
+                          ))}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
                   <textarea
                     placeholder="Project description..."
                     rows={4}
