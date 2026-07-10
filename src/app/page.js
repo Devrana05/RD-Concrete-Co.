@@ -6,13 +6,13 @@ export default function HomePage() {
   return (
     <>
       {/* 1. Hero Section */}
-      <section className="relative w-full aspect-video md:h-[80vh] md:min-h-[600px] md:aspect-auto flex items-center bg-ink overflow-hidden">
+      <section className="relative w-full min-h-[50vh] sm:min-h-[60vh] md:h-[80vh] md:min-h-[600px] flex items-center bg-ink overflow-hidden py-16 md:py-0">
         {/* Gradient overlays */}
         <div className="absolute inset-0 bg-gradient-to-r from-ink/70 via-ink/30 md:from-ink/50 md:via-ink/20 to-transparent z-10 pointer-events-none" />
         <HeroVideoCarousel />
         
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div className="max-w-[70%] sm:max-w-xl md:max-w-3xl">
+          <div className="max-w-[95%] sm:max-w-xl md:max-w-3xl">
             <h1 className="font-display font-800 text-2xl sm:text-4xl md:text-7xl lg:text-8xl tracking-wide text-white leading-[1.05] mb-2 md:mb-6 drop-shadow-xl">
               Designed for the outdoors, <br/> Built to last.
             </h1>

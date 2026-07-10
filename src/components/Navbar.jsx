@@ -35,7 +35,7 @@ export default function Navbar() {
                   RD CONCRETE CO.
                 </span>
                 <div className="flex items-center gap-1.5 md:gap-2 mt-1 md:mt-1.5">
-                  <div className="h-[3px] md:h-[4px] flex-grow bg-[#C89B5C]"></div>
+                  <div className="h-[3px] md:h-[4px] min-w-[1.5rem] flex-grow bg-[#C89B5C]"></div>
                   <span className="font-display font-bold text-ink/90 text-[10px] sm:text-xs md:text-sm tracking-widest uppercase whitespace-nowrap">
                     WE BUILD STRENGTH & QUALITY
                   </span>
