@@ -92,13 +92,13 @@ export default function ClientsPage() {
   ];
 
   return (
-    <div className="bg-[#f4f4f4] min-h-screen font-body flex flex-col">
+    <div className="bg-[#f4f4f4] min-h-screen font-body flex flex-col overflow-x-hidden">
       
       {/* Hero Section */}
       <section className="bg-[#f4f4f4] pt-24 pb-16 px-4 sm:px-6 lg:px-8 text-center border-b border-concrete-light">
         <div className="max-w-4xl mx-auto">
           <p className="text-rebar font-display font-700 tracking-[0.2em] uppercase text-sm mb-4">Who We Work With</p>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-300 text-ink leading-tight mb-6 tracking-wide">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-300 text-ink leading-tight mb-6 tracking-wide break-words">
             Our <strong className="font-700">Clients</strong>
           </h1>
           <p className="text-graphite md:text-lg max-w-2xl mx-auto">
@@ -115,7 +115,7 @@ export default function ClientsPage() {
           {/* Government Section */}
           <div className="mb-16">
             <div className="flex items-center gap-4 mb-8">
-              <h2 className="text-2xl md:text-3xl font-display font-700 text-[#0056b3] whitespace-nowrap">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-display font-700 text-[#0056b3] pr-4">
                 GOVERNMENT / ORGANISATIONS
               </h2>
               <div className="h-[2px] w-full bg-[#0056b3]"></div>
@@ -142,7 +142,7 @@ export default function ClientsPage() {
           {/* Corporate Section */}
           <div>
             <div className="flex items-center gap-4 mb-8">
-              <h2 className="text-2xl md:text-3xl font-display font-700 text-[#0056b3] whitespace-nowrap">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-display font-700 text-[#0056b3] pr-4">
                 CORPORATE
               </h2>
               <div className="h-[2px] w-full bg-[#0056b3]"></div>
