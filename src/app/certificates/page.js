@@ -74,13 +74,13 @@ export default function CertificatesPage() {
   };
 
   return (
-    <div className="bg-[#f4f4f4] min-h-screen font-body flex flex-col">
+    <div className="bg-[#f4f4f4] min-h-screen font-body flex flex-col overflow-x-hidden">
 
       {/* Hero Section */}
       <section className="bg-[#f4f4f4] pt-24 pb-16 px-4 sm:px-6 lg:px-8 text-center border-b border-concrete-light">
         <div className="max-w-4xl mx-auto">
           <p className="text-rebar font-display font-700 tracking-[0.2em] uppercase text-sm mb-4">Quality Assurance</p>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-300 text-ink leading-tight mb-6 tracking-wide">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-300 text-ink leading-tight mb-6 tracking-wide break-words">
             Our <strong className="font-700">Certifications</strong>
           </h1>
           <p className="text-graphite md:text-lg max-w-2xl mx-auto">
@@ -115,12 +115,12 @@ export default function CertificatesPage() {
                 
                 {/* Content Area */}
                 <div className="p-6 sm:p-8 flex flex-col justify-center flex-grow relative">
-                  <div className="absolute top-6 right-6">
+                  <div className="sm:absolute sm:top-6 sm:right-6 mb-3 sm:mb-0">
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 border border-green-200">
                       VERIFIED
                     </span>
                   </div>
-                  <h3 className="text-xl font-display font-700 text-ink mb-1 pr-20">{cert.name}</h3>
+                  <h3 className="text-xl font-display font-700 text-ink mb-1 sm:pr-20 break-words">{cert.name}</h3>
                   <p className="text-sm font-600 text-rebar mb-4">{cert.body}</p>
                   
                   <div className="space-y-1 text-sm text-graphite">
