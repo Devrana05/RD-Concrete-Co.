@@ -11,5 +11,7 @@ export const categories = [
   { id: "manhole-chamber", name: "Precast Concrete Manhole" },
   { id: "railway-coping", name: "Railway Coping Stone" },
   { id: "sfrc-railing", name: "SFRC Railing" },
-  { id: "rcc-sign-board", name: "RCC Sign Board & Indicator" }
+  { id: "rcc-sign-board", name: "RCC Sign Board & Indicator" },
+  { id: "drain-cover", name: "Concrete Drain Cover" },
+  { id: "sewer-chamber", name: "Circular House Sewer Connection Chamber" }
 ];

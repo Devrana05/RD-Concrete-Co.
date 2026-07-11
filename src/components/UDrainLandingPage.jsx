@@ -17,9 +17,9 @@ const productData = {
       "Engineered from high-strength reinforced concrete, they offer a leak-proof connection point that is quick to install and easy to maintain.",
       "These chambers replace traditional brick-built inspection chambers, offering superior structural integrity and a longer lifespan, ensuring seamless sewage management."
     ],
-    heroImage: "/prod15.png",
+    heroImage: "/sewer.jpeg",
     heroImageFit: "cover",
-    gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.jpeg", "/sewer3.png"],
+    gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.png", "/sewer3.png"],
     bulletPoints: [],
     implementationFeatures: [
       { cat: "Residential Housing", desc: "Reliable connection from household drains to municipal sewer lines." },
@@ -36,7 +36,7 @@ const productData = {
     additionalSections: [
       {
         title: "",
-        gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.jpeg", "/sewer4.png"],
+        gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.png", "/sewer4.png"],
         bulletPoints: [],
         specsTable: [
           { label: "Product Type", value: "Sewer Connection Chamber" },
@@ -48,7 +48,7 @@ const productData = {
       },
       {
         title: "",
-        gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.jpeg", "/sewer5.png"],
+        gallery: ["/sewer.jpeg", "/sewer1.jpeg", "/sewer2.png", "/sewer5.png"],
         bulletPoints: [],
         specsTable: [
           { label: "Product Type", value: "Sewer Connection Chamber" },

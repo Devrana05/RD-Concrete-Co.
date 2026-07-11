@@ -70,7 +70,7 @@ export default function HomePage() {
               </h2>
               <div className="font-body text-ink/80 space-y-6 text-base md:text-lg leading-relaxed">
                 <p>
-                  We are experts in manufacturing Concrete Paver Blocks, Tiles, Engineered Blocks, Drainage Solutions, and more.
+                  We are experts in manufacturing RCC Garden Benches, Chequered Tiles, PreCast U-Drain, Kerb Stones, and more.
                 </p>
                 <p>
                   Over the past 21 years, we've proudly served over 500+ projects, providing top-tier products to contractors, builders, and developers. With 15+ product lines across multiple categories, our products are installed across the entire region.
