@@ -29,7 +29,7 @@ export default function Navbar() {
               <img src="/logo.png" alt="R.D. Concrete Co. Logo" className="h-10 sm:h-12 md:h-24 w-auto object-contain mix-blend-multiply" />
               <div className="flex flex-col justify-center">
                 <span className="font-display font-bold text-ink text-[10px] sm:text-xs md:text-sm tracking-widest uppercase mb-[-2px] md:mb-[-4px]">
-                  Since 2005
+                  Since 2008
                 </span>
                 <span className="font-display font-bold text-ink text-xl sm:text-2xl md:text-4xl tracking-wider uppercase leading-none">
                   RD CONCRETE CO.

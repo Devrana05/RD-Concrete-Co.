@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronRight, ChevronLeft, ArrowRight, Download, Plus, Minus, Search, CheckCircle2, X } from "lucide-react";
@@ -1110,6 +1110,17 @@ export default function UDrainLandingPage({ productType = "T25" }) {
   const [inquiryOpen, setInquiryOpen] = useState(false);
   const data = productData[productType] || productData.T25;
   const isPaver = productType === 'INTERLOCKING_PAVERS' || productType === 'GRASS_PAVER' || productType === 'BRICK_PAVER' || productType === 'COMBI_PAVER' || productType === 'COBBLE_STONE' || productType === 'MANHOLE_COVER';
+
+  useEffect(() => {
+    if (lightboxImage) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [lightboxImage]);
 
   const tactileTilesSections = [
     { title: "Tactile Tile - Type 01", size: "300 X 300 X 25/30/40/60 mm", tilesPerSqM: "11 Nos.", images: ["/tile10.jpeg", "/tile9.jpeg"] },

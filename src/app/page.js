@@ -17,7 +17,7 @@ export default function HomePage() {
               Designed for the outdoors, <br/> Built to last.
             </h1>
             <p className="font-body text-xs sm:text-sm md:text-xl text-white/90 max-w-[90%] md:max-w-xl mb-0 md:mb-10">
-              Manufacturer of quality precast concrete products. Trusted across the region since 2005.
+              Manufacturer of quality precast concrete products. Trusted across the region since 2008.
             </p>
           </div>
         </div>
@@ -37,22 +37,22 @@ export default function HomePage() {
             {/* Left: Years Badge */}
             <div className="flex items-center gap-5 justify-center md:justify-start">
               <div className="bg-rebar rounded px-3 py-2 flex flex-col items-center justify-center flex-shrink-0 leading-none">
-                <span className="font-display font-800 text-4xl text-white leading-none">21</span>
+                <span className="font-display font-800 text-4xl text-white leading-none">18</span>
                 <span className="font-display font-700 text-xs text-white tracking-wider uppercase -mt-0.5">YEARS</span>
               </div>
               <div>
                 <p className="font-display font-600 text-xl text-white tracking-wide">Building Memories</p>
-                <p className="font-body text-graphite-light text-sm">for 21 years</p>
+                <p className="font-body text-graphite-light text-sm">for 18 years</p>
               </div>
             </div>
 
             {/* Right: Description */}
             <div>
               <p className="font-body text-white text-lg md:text-xl font-medium mb-4">
-                <span className="text-rebar font-bold">R.D. Concrete Co.</span> has been building memories for over 21 years!
+                <span className="text-rebar font-bold">R.D. Concrete Co.</span> has been building memories for over 18 years!
               </p>
               <p className="font-body text-graphite-light text-sm leading-relaxed">
-                At R.D. Concrete Co., we prioritize uncompromising quality and offer world-class products that elevate your outdoor spaces. Since 2005, our exceptional pavers and concrete products have set the standard in the region. Trust us to deliver excellence that makes a lasting impression!
+                At R.D. Concrete Co., we prioritize uncompromising quality and offer world-class products that elevate your outdoor spaces. Since 2008, our exceptional pavers and concrete products have set the standard in the region. Trust us to deliver excellence that makes a lasting impression!
               </p>
             </div>
           </div>
@@ -70,10 +70,10 @@ export default function HomePage() {
               </h2>
               <div className="font-body text-ink/80 space-y-6 text-base md:text-lg leading-relaxed">
                 <p>
-                  We are experts in manufacturing RCC Garden Benches, Chequered Tiles, PreCast U-Drain, Kerb Stones, and more.
+                  We are experts in manufacturing RCC Garden Benches, Interlocking Pavers, Chequered Tiles, Kerb Stones, PreCast U-Drain and more.
                 </p>
                 <p>
-                  Over the past 21 years, we've proudly served over 500+ projects, providing top-tier products to contractors, builders, and developers. With 15+ product lines across multiple categories, our products are installed across the entire region.
+                  Over the past 18 years, we've proudly served over 500+ projects, providing top-tier products to contractors, builders, and developers. With 15+ product lines across multiple categories, our products are installed across the entire region.
                 </p>
                 <p>
                   "At R.D. Concrete Co., we don't just manufacture concrete products — we build the foundation for enduring quality, value, and trust."

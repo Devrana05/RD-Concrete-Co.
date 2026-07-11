@@ -11,7 +11,7 @@ export default function Footer() {
               <img src="/logo.png" alt="R.D. Concrete Co. Logo" className="h-10 md:h-14 w-auto object-contain mix-blend-multiply" />
               <div className="flex flex-col justify-center">
                 <span className="font-display font-bold text-ink text-[10px] md:text-xs tracking-widest uppercase mb-[-2px] md:mb-[-4px]">
-                  Since 2005
+                  Since 2008
                 </span>
                 <span className="font-display font-bold text-ink text-2xl md:text-3xl tracking-wider uppercase leading-none whitespace-nowrap">
                   RD CONCRETE CO.

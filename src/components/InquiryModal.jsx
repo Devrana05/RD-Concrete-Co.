@@ -18,9 +18,15 @@ export default function InquiryModal({ isOpen, onClose, initialMessage = "" }) {
 
   useEffect(() => {
     if (isOpen) {
+      document.body.style.overflow = "hidden";
       setFormData((prev) => ({ ...prev, description: initialMessage }));
       setSubmitted(false);
+    } else {
+      document.body.style.overflow = "";
     }
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [isOpen, initialMessage]);
 
 

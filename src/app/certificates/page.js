@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ArrowRight, FileText, X } from "lucide-react";
 import InquiryModal from "@/components/InquiryModal";
 
@@ -72,6 +72,17 @@ export default function CertificatesPage() {
     setLightboxOpen(false);
     setTimeout(() => setSelectedCert(null), 300);
   };
+
+  useEffect(() => {
+    if (lightboxOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [lightboxOpen]);
 
   return (
     <div className="bg-[#f4f4f4] min-h-screen font-body flex flex-col overflow-x-hidden">

@@ -50,7 +50,7 @@ export default function FloatingSocial() {
     },
     {
       label: "Facebook",
-      href: "https://facebook.com/rdconcreteco", 
+      href: "https://www.facebook.com/rdconcreteco/",
       bg: "#1877F2",
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
