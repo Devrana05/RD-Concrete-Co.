@@ -13,7 +13,7 @@ export default function AboutPage() {
             About <span className="text-rebar font-600">Us</span>
           </h1>
           <p className="font-body text-graphite-dark text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
-            At <span className="font-bold text-ink">R.D. Concrete Co.</span>, we take pride in being a premier hardscape company. We are manufacturer of Pavers, Blocks, Tiles, and Kerbs dedicated to providing high-quality products and exceptional customer service. Our passion for creating beautiful and durable hardscaping solutions drives everything we do.
+            At <span className="font-bold text-ink">R.D. Concrete Co.</span>, we take pride in being a premier hardscape company. We are manufacturer of RCC Garden Benches, Interlocking Pavers, Chequered Tiles, Kerb Stones, PreCast U-Drain and more products dedicated to providing high-quality products and exceptional customer service. Our passion for creating beautiful and durable hardscaping solutions drives everything we do.
           </p>
         </div>
       </section>

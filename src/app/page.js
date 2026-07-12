@@ -49,10 +49,10 @@ export default function HomePage() {
             {/* Right: Description */}
             <div>
               <p className="font-body text-white text-lg md:text-xl font-medium mb-4">
-                <span className="text-rebar font-bold">R.D. Concrete Co.</span> has been building memories for over 18 years!
+                <span className="text-rebar font-bold">RD Concrete Co.</span> has been building memories for over 18 years!
               </p>
               <p className="font-body text-graphite-light text-sm leading-relaxed">
-                At R.D. Concrete Co., we prioritize uncompromising quality and offer world-class products that elevate your outdoor spaces. Since 2008, our exceptional pavers and concrete products have set the standard in the region. Trust us to deliver excellence that makes a lasting impression!
+                At RD Concrete Co., we prioritize uncompromising quality and offer world-class products that elevate your outdoor spaces. Since 2008, our exceptional pavers and concrete products have set the standard in the region. Trust us to deliver excellence that makes a lasting impression!
               </p>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function HomePage() {
                   Over the past 18 years, we've proudly served over 500+ projects, providing top-tier products to contractors, builders, and developers. With 15+ product lines across multiple categories, our products are installed across the entire region.
                 </p>
                 <p>
-                  "At R.D. Concrete Co., we don't just manufacture concrete products — we build the foundation for enduring quality, value, and trust."
+                  "At RD Concrete Co., we don't just manufacture concrete products — we build the foundation for enduring quality, value, and trust."
                 </p>
                 
                 <ul className="space-y-4 mt-8">
@@ -101,7 +101,7 @@ export default function HomePage() {
             
             {/* Right Video / Image */}
             <div className="lg:col-span-7 relative w-full lg:w-[115%] xl:w-[125%] max-w-none z-10 rounded-lg overflow-hidden shadow-2xl bg-concrete flex items-center justify-center">
-              <img src="/overview.jpeg" alt="R.D. Concrete Co. Overview" className="w-full h-auto object-contain" />
+              <img src="/overview.jpeg" alt="RD Concrete Co. Overview" className="w-full h-auto object-contain" />
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-[#5a5a5a] leading-relaxed mb-6">
-              Manufacturer of quality precast concrete products since 2005.
+              Manufacturer of quality precast concrete products since 2008.
             </p>
             {/* Certifications Logos */}
             <div className="flex items-center flex-wrap gap-4 mt-6">
@@ -136,7 +136,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-[#d0d0d0] flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-[#888] font-mono">
-            © 2026 R D Concrete Co. All rights reserved.
+            © 2026 RD Concrete Co. All rights reserved.
           </p>
           <div className="flex gap-4 text-xs text-[#888]">
             <Link href="/privacy" className="hover:text-rebar transition-colors no-underline">
