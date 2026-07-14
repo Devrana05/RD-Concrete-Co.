@@ -28,6 +28,9 @@ export const metadata = {
   description:
     "Leading manufacturer of high-quality precast concrete products including Pavers, U-Drains, Kerb Stones, RCC Manhole Chambers, and SFRC Railings for robust infrastructure.",
   keywords: [
+    "RD Concrete",
+    "RD Concrete CO.",
+    "R.D. Concrete Co.",
     "precast concrete",
     "concrete pavers",
     "u-drain systems",

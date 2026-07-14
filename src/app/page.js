@@ -27,7 +27,7 @@ export default function HomePage() {
       <section className="bg-ink py-20 md:py-28 text-center border-t border-rebar/30">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-display font-700 text-3xl md:text-5xl lg:text-6xl tracking-[0.15em] text-white uppercase mb-3">
-            PREMIER HARDSCAPE COMPANY
+            PRECAST CONCRETE SOLUTIONS
           </h2>
           <p className="font-body text-graphite-light text-base md:text-lg mb-12 max-w-2xl mx-auto tracking-wide">
             Discover the beauty and durability of our concrete products.
