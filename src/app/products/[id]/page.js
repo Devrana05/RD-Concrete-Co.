@@ -5,13 +5,13 @@ import ProductDetailClient from "./ProductDetailClient";
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const product = getProductById(resolvedParams.id);
-  
+
   if (!product) {
-    return { title: "Product Not Found — R.D. Concrete Co." };
+    return { title: "Product Not Found — RD Concrete Co." };
   }
-  
+
   return {
-    title: `${product.name} — R.D. Concrete Co.`,
+    title: `${product.name} — RD Concrete Co.`,
     description: product.description,
   };
 }
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
 export default async function ProductPage({ params }) {
   const resolvedParams = await params;
   const product = getProductById(resolvedParams.id);
-  
+
   if (!product || product.status !== "active") {
     notFound();
   }

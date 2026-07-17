@@ -34,22 +34,22 @@ export default function InquiryModal({ isOpen, onClose, initialMessage = "" }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     try {
       const response = await fetch("https://formsubmit.co/ajax/rdccindia@gmail.com", {
         method: "POST",
         headers: {
-            "Content-Type": "application/json",
-            "Accept": "application/json"
+          "Content-Type": "application/json",
+          "Accept": "application/json"
         },
         body: JSON.stringify({
-            _subject: "New Expert Inquiry - R.D. Concrete Co.",
-            Name: formData.name,
-            Email: formData.email,
-            Phone: formData.phone,
-            Category: formData.category || "General",
-            Message: formData.description,
-            _template: "table"
+          _subject: "New Expert Inquiry - RD Concrete Co.",
+          Name: formData.name,
+          Email: formData.email,
+          Phone: formData.phone,
+          Category: formData.category || "General",
+          Message: formData.description,
+          _template: "table"
         })
       });
 
@@ -84,7 +84,7 @@ export default function InquiryModal({ isOpen, onClose, initialMessage = "" }) {
       />
 
       {/* Modal Panel */}
-      <div 
+      <div
         className="fixed inset-0 z-[70] flex items-center justify-center p-4"
       >
         <div className="bg-white rounded-lg shadow-2xl w-full max-w-md relative animate-in max-h-[90vh] overflow-y-auto">
@@ -163,7 +163,7 @@ export default function InquiryModal({ isOpen, onClose, initialMessage = "" }) {
 
                     <AnimatePresence>
                       {dropdownOpen && (
-                        <motion.div 
+                        <motion.div
                           initial={{ height: 0, opacity: 0 }}
                           animate={{ height: "auto", opacity: 1 }}
                           exit={{ height: 0, opacity: 0 }}

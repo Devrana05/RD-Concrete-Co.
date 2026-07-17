@@ -26,7 +26,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-24 md:h-32">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 md:gap-4 no-underline flex-shrink-0">
-              <img src="/logo.png" alt="R.D. Concrete Co. Logo" className="h-10 sm:h-12 md:h-24 w-auto object-contain mix-blend-multiply" />
+              <img src="/logo.png" alt="RD Concrete Co. Logo" className="h-10 sm:h-12 md:h-24 w-auto object-contain mix-blend-multiply" />
               <div className="flex flex-col justify-center">
                 <span className="font-display font-bold text-ink text-[10px] sm:text-xs md:text-sm tracking-widest uppercase mb-[-2px] md:mb-[-4px]">
                   Since 2008
@@ -50,9 +50,8 @@ export default function Navbar() {
                   key={link.href}
                   href={link.href}
                   prefetch={true}
-                  className={`font-body font-600 text-lg md:text-xl tracking-wide transition-colors no-underline ${
-                    pathname === link.href ? "text-rebar" : "text-ink hover:text-rebar"
-                  }`}
+                  className={`font-body font-600 text-lg md:text-xl tracking-wide transition-colors no-underline ${pathname === link.href ? "text-rebar" : "text-ink hover:text-rebar"
+                    }`}
                 >
                   {link.label}
                 </Link>
@@ -78,19 +77,16 @@ export default function Navbar() {
                 aria-expanded={mobileOpen}
               >
                 <span
-                  className={`block w-6 h-[2px] bg-ink transition-transform duration-300 pointer-events-none ${
-                    mobileOpen ? "rotate-45 translate-y-[8px]" : ""
-                  }`}
+                  className={`block w-6 h-[2px] bg-ink transition-transform duration-300 pointer-events-none ${mobileOpen ? "rotate-45 translate-y-[8px]" : ""
+                    }`}
                 />
                 <span
-                  className={`block w-6 h-[2px] bg-ink transition-opacity duration-300 pointer-events-none ${
-                    mobileOpen ? "opacity-0" : ""
-                  }`}
+                  className={`block w-6 h-[2px] bg-ink transition-opacity duration-300 pointer-events-none ${mobileOpen ? "opacity-0" : ""
+                    }`}
                 />
                 <span
-                  className={`block w-6 h-[2px] bg-ink transition-transform duration-300 pointer-events-none ${
-                    mobileOpen ? "-rotate-45 -translate-y-[8px]" : ""
-                  }`}
+                  className={`block w-6 h-[2px] bg-ink transition-transform duration-300 pointer-events-none ${mobileOpen ? "-rotate-45 -translate-y-[8px]" : ""
+                    }`}
                 />
               </button>
             </div>
@@ -121,9 +117,8 @@ export default function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`font-body font-600 text-lg tracking-wide transition-colors py-2 border-b border-concrete-light last:border-0 no-underline ${
-                    pathname === item.href ? "text-rebar" : "text-ink"
-                  }`}
+                  className={`font-body font-600 text-lg tracking-wide transition-colors py-2 border-b border-concrete-light last:border-0 no-underline ${pathname === item.href ? "text-rebar" : "text-ink"
+                    }`}
                   onClick={() => setMobileOpen(false)}
                 >
                   {item.label}

@@ -93,7 +93,7 @@ export default function ClientsPage() {
 
   return (
     <div className="bg-[#f4f4f4] min-h-screen font-body flex flex-col overflow-x-hidden">
-      
+
       {/* Hero Section */}
       <section className="bg-[#f4f4f4] pt-24 pb-16 px-4 sm:px-6 lg:px-8 text-center border-b border-concrete-light">
         <div className="max-w-4xl mx-auto">
@@ -102,16 +102,16 @@ export default function ClientsPage() {
             Our <strong className="font-700">Clients</strong>
           </h1>
           <p className="text-graphite md:text-lg max-w-2xl mx-auto">
-            Over 21 years, R.D. Concrete Co. has supplied quality precast concrete products to contractors, builders, developers and government projects across the region.
+            Over 18 years, RD Concrete Co. has supplied quality precast concrete products to contractors, builders, developers and government projects across the region.
           </p>
         </div>
       </section>
 
       <main className="flex-grow w-full">
-        
+
         {/* Client Logo Grids */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-          
+
           {/* Government Section */}
           <div className="mb-16">
             <div className="flex items-center gap-4 mb-8">
@@ -120,11 +120,11 @@ export default function ClientsPage() {
               </h2>
               <div className="h-[2px] w-full bg-[#0056b3]"></div>
             </div>
-            
+
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
               {governmentClients.map((client) => (
-                <div 
-                  key={client.id} 
+                <div
+                  key={client.id}
                   className="bg-white rounded shadow-sm hover:shadow-md transition-shadow duration-300 p-4 md:p-6 flex flex-col items-center justify-center text-center border border-concrete-light group"
                 >
                   <div className="w-full h-24 flex items-center justify-center rounded">
@@ -147,11 +147,11 @@ export default function ClientsPage() {
               </h2>
               <div className="h-[2px] w-full bg-[#0056b3]"></div>
             </div>
-            
+
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
               {corporateClients.map((client) => (
-                <div 
-                  key={client.id} 
+                <div
+                  key={client.id}
                   className="bg-white rounded shadow-sm hover:shadow-md transition-shadow duration-300 p-4 md:p-6 flex flex-col items-center justify-center text-center border border-concrete-light group"
                 >
                   <div className="w-full h-24 flex items-center justify-center rounded">
@@ -210,22 +210,22 @@ export default function ClientsPage() {
 
         {/* Testimonials */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-           <h2 className="text-2xl md:text-3xl font-display font-700 text-ink mb-12 text-center">
-              What Our Clients Say
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
-              {testimonials.map((test, idx) => (
-                <div key={idx} className={`bg-white p-8 md:p-10 border border-concrete-light shadow-sm flex flex-col ${(idx === testimonials.length - 1 && testimonials.length % 2 !== 0) ? 'md:col-span-2 md:max-w-2xl md:mx-auto w-full' : ''}`}>
-                  <div className="flex-grow">
-                    <p className="text-graphite italic leading-relaxed mb-6">"{test.quote}"</p>
-                  </div>
-                  <div className="mt-auto border-t border-concrete-light pt-4">
-                    <p className="font-display font-700 text-ink text-lg">{test.name}</p>
-                    <p className="text-sm font-600 text-rebar">{test.role}</p>
-                  </div>
+          <h2 className="text-2xl md:text-3xl font-display font-700 text-ink mb-12 text-center">
+            What Our Clients Say
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
+            {testimonials.map((test, idx) => (
+              <div key={idx} className={`bg-white p-8 md:p-10 border border-concrete-light shadow-sm flex flex-col ${(idx === testimonials.length - 1 && testimonials.length % 2 !== 0) ? 'md:col-span-2 md:max-w-2xl md:mx-auto w-full' : ''}`}>
+                <div className="flex-grow">
+                  <p className="text-graphite italic leading-relaxed mb-6">"{test.quote}"</p>
                 </div>
-              ))}
-            </div>
+                <div className="mt-auto border-t border-concrete-light pt-4">
+                  <p className="font-display font-700 text-ink text-lg">{test.name}</p>
+                  <p className="text-sm font-600 text-rebar">{test.role}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </section>
 
         {/* Bottom CTA */}
@@ -236,7 +236,7 @@ export default function ClientsPage() {
           <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
             Get in touch to discuss your project requirements.
           </p>
-          <button 
+          <button
             onClick={() => setInquiryOpen(true)}
             className="inline-flex items-center justify-center bg-rebar text-white font-body font-600 px-8 py-4 hover:bg-rebar-dark transition-colors tracking-widest text-sm uppercase cursor-pointer border-none"
           >
@@ -246,10 +246,10 @@ export default function ClientsPage() {
 
       </main>
 
-      <InquiryModal 
-        isOpen={inquiryOpen} 
-        onClose={() => setInquiryOpen(false)} 
-        initialMessage="I would like to discuss a project with R.D. Concrete Co."
+      <InquiryModal
+        isOpen={inquiryOpen}
+        onClose={() => setInquiryOpen(false)}
+        initialMessage="I would like to discuss a project with RD Concrete Co."
       />
     </div>
   );

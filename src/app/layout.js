@@ -30,7 +30,7 @@ export const metadata = {
   keywords: [
     "RD Concrete",
     "RD Concrete CO.",
-    "R.D. Concrete Co.",
+    "RD Concrete Co.",
     "precast concrete",
     "concrete pavers",
     "u-drain systems",

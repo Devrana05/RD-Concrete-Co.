@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Company */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 md:gap-4 mb-4 -ml-1 flex-shrink-0">
-              <img src="/logo.png" alt="R.D. Concrete Co. Logo" className="h-10 md:h-14 w-auto object-contain mix-blend-multiply" />
+              <img src="/logo.png" alt="RD Concrete Co. Logo" className="h-10 md:h-14 w-auto object-contain mix-blend-multiply" />
               <div className="flex flex-col justify-center">
                 <span className="font-display font-bold text-ink text-[10px] md:text-xs tracking-widest uppercase mb-[-2px] md:mb-[-4px]">
                   Since 2008
@@ -30,18 +30,18 @@ export default function Footer() {
             {/* Certifications Logos */}
             <div className="flex items-center flex-wrap gap-4 mt-6">
               {[
-                "/cert1.jpg", 
-                "/cert2.png", 
-                "/cert3.png", 
-                "/cert4.png", 
+                "/cert1.jpg",
+                "/cert2.png",
+                "/cert3.png",
+                "/cert4.png",
                 "/cert5.png"
               ].map((src, index) => (
-                <img 
+                <img
                   key={index}
                   src={src}
-                  alt={`Certification ${index + 1}`} 
-                  className="h-12 md:h-16 w-auto object-contain" 
-                  onError={(e) => { e.target.style.display = 'none'; }} 
+                  alt={`Certification ${index + 1}`}
+                  className="h-12 md:h-16 w-auto object-contain"
+                  onError={(e) => { e.target.style.display = 'none'; }}
                 />
               ))}
             </div>
