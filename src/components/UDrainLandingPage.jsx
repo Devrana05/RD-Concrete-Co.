@@ -1167,7 +1167,7 @@ export default function UDrainLandingPage({ productType = "T25" }) {
   };
   return (
     <div className="w-full bg-[#f4f4f4] text-[#333333] font-body min-h-screen">
-
+      <style>{`@keyframes heroFadeIn { from { opacity: 0; } to { opacity: 1; } }`}</style>
       {/* =========================================
           HERO SECTION
           ========================================= */}
@@ -1184,9 +1184,10 @@ export default function UDrainLandingPage({ productType = "T25" }) {
               playsInline
               preload="metadata"
               className="w-full h-full object-cover"
+              style={{ animation: "heroFadeIn 0.6s ease-out forwards", opacity: 0 }}
             />
           ) : (
-            <img src={data.heroImage} alt={data.titlePrefix} className={`w-full h-full ${data.heroImageFit === 'contain' ? 'object-contain' : data.heroImageFit === 'fill' ? 'object-contain md:object-fill' : 'object-cover'}`} />
+            <img src={data.heroImage} alt={data.titlePrefix} className={`w-full h-full ${data.heroImageFit === 'contain' ? 'object-contain' : data.heroImageFit === 'fill' ? 'object-contain md:object-fill' : 'object-cover'}`} style={{ animation: "heroFadeIn 0.6s ease-out forwards", opacity: 0 }} />
           )}
         </div>
 
@@ -1195,26 +1196,30 @@ export default function UDrainLandingPage({ productType = "T25" }) {
 
         <div className="relative z-20 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            style={{ willChange: "opacity" }}
             className="font-display font-900 text-2xl sm:text-4xl md:text-6xl lg:text-7xl text-white uppercase tracking-tighter mb-2 md:mb-6 drop-shadow-xl"
           >
             {data.titlePrefix} <span className="text-gray-400 font-300 inline-block mx-1 md:mx-2">|</span> {data.badge}
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, ease: "easeOut", delay: 0.15 }}
+            style={{ willChange: "opacity" }}
             className="font-body text-xs sm:text-sm md:text-xl text-gray-200 mb-4 md:mb-10 max-w-[90%] md:max-w-2xl mx-auto leading-relaxed drop-shadow-md"
           >
             {data.descTop}
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
+            style={{ willChange: "opacity" }}
           >
             <button
               onClick={() => setInquiryOpen(true)}

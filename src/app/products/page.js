@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
-import { useSearchParams } from "next/navigation";
+import { useMemo, useRef, useEffect } from "react";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { Suspense } from "react";
 import Link from "next/link";
 import { products } from "@/data/products";
@@ -27,44 +27,56 @@ const subCategoryDetails = {
 
 function CatalogContent() {
   const searchParams = useSearchParams();
-  const initialCategory = searchParams.get("category") || "all";
-  const initialSubCategory = searchParams.get("subcategory") || "all";
+  const router = useRouter();
+  const pathname = usePathname();
 
-  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
-  const [selectedSubCategory, setSelectedSubCategory] = useState(initialSubCategory);
-  const [selectedUDrainProduct, setSelectedUDrainProduct] = useState(null);
-  const [selectedManholeProduct, setSelectedManholeProduct] = useState(null);
-  const [selectedRetainingProduct, setSelectedRetainingProduct] = useState(null);
-  const [selectedJerseyProduct, setSelectedJerseyProduct] = useState(null);
-  const [selectedGardenBenchProduct, setSelectedGardenBenchProduct] = useState(null);
+  const selectedCategory = searchParams.get("category") || "all";
+  const selectedSubCategory = searchParams.get("subcategory") || "all";
+  const selectedUDrainProduct = searchParams.get("udrain") || null;
+  const selectedManholeProduct = searchParams.get("manhole") || null;
+  const selectedRetainingProduct = searchParams.get("retaining") || null;
+  const selectedJerseyProduct = searchParams.get("jersey") || null;
+  const selectedGardenBenchProduct = searchParams.get("gardenbench") || null;
 
-  useEffect(() => {
-    const cat = searchParams.get("category");
-    if (cat) {
-      setSelectedCategory(cat);
-      setSelectedSubCategory(searchParams.get("subcategory") || "all");
-    } else {
-      setSelectedCategory("all");
+  const contentRef = useRef(null);
+
+  const updateUrlParams = (updates) => {
+    // Hide content instantly before scrolling so user never sees old content jump
+    if (contentRef.current) {
+      contentRef.current.style.opacity = '0';
     }
-    setSelectedUDrainProduct(null);
-    setSelectedManholeProduct(null);
-    setSelectedRetainingProduct(null);
-    setSelectedJerseyProduct(null);
-    setSelectedGardenBenchProduct(null);
-  }, [searchParams]);
+    window.scrollTo({ top: 0, behavior: "instant" });
 
+    const current = new URLSearchParams(Array.from(searchParams.entries()));
+    Object.keys(updates).forEach(key => {
+      if (updates[key] === null || updates[key] === undefined) {
+        current.delete(key);
+      } else {
+        current.set(key, updates[key]);
+      }
+    });
+    const search = current.toString();
+    const query = search ? `?${search}` : "";
+    router.push(`${pathname}${query}`, { scroll: false });
+  };
+
+  const setSelectedCategory = (cat) => updateUrlParams({ category: cat === 'all' ? null : cat, subcategory: null, udrain: null, manhole: null, retaining: null, jersey: null, gardenbench: null });
+  const setSelectedSubCategory = (sub) => updateUrlParams({ subcategory: sub === 'all' ? null : sub });
+  const setSelectedUDrainProduct = (id) => updateUrlParams({ udrain: id });
+  const setSelectedManholeProduct = (id) => updateUrlParams({ manhole: id });
+  const setSelectedRetainingProduct = (id) => updateUrlParams({ retaining: id });
+  const setSelectedJerseyProduct = (id) => updateUrlParams({ jersey: id });
+  const setSelectedGardenBenchProduct = (id) => updateUrlParams({ gardenbench: id });
+
+  // Restore visibility after new content renders
   useEffect(() => {
-    window.scrollTo(0, 0);
+    if (contentRef.current) {
+      contentRef.current.style.opacity = '1';
+    }
   }, [selectedCategory, selectedSubCategory, selectedUDrainProduct, selectedManholeProduct, selectedRetainingProduct, selectedJerseyProduct, selectedGardenBenchProduct]);
 
   const handleCategoryChange = (cat) => {
     setSelectedCategory(cat);
-    setSelectedSubCategory("all");
-    setSelectedUDrainProduct(null);
-    setSelectedManholeProduct(null);
-    setSelectedRetainingProduct(null);
-    setSelectedJerseyProduct(null);
-    setSelectedGardenBenchProduct(null);
   };
 
   const handleSubCategoryChange = (subcat) => {
@@ -772,17 +784,11 @@ function CatalogContent() {
   const viewKey = `${selectedCategory}-${selectedSubCategory}-${selectedUDrainProduct || ''}-${selectedManholeProduct || ''}-${selectedRetainingProduct || ''}-${selectedJerseyProduct || ''}`;
 
   return (
-    <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
-      <motion.div
-        key={viewKey}
-        initial={{ opacity: 0, y: 15 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -15 }}
-        transition={{ duration: 0.3, ease: "easeOut" }}
-      >
+    <div ref={contentRef}>
+      <div key={viewKey}>
         {renderContent()}
-      </motion.div>
-    </AnimatePresence>
+      </div>
+    </div>
   );
 }
 
