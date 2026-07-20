@@ -4,7 +4,7 @@ Welcome to the official frontend repository for **RD Concrete Co.**! This projec
 
 The platform is designed to be highly visual, fully responsive, and optimized for search engines (SEO).
 
-[View Live Project](rdccindia.com)
+[View Live Project](https://rdccindia.com)
 
 ## 🚀 Tech Stack
 
