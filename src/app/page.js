@@ -100,8 +100,8 @@ export default function HomePage() {
             </div>
             
             {/* Right Video / Image */}
-            <div className="lg:col-span-7 relative w-full lg:w-[115%] xl:w-[125%] max-w-none z-10 rounded-lg overflow-hidden shadow-2xl bg-concrete flex items-center justify-center">
-              <img src="/overview.jpeg" alt="RD Concrete Co. Overview" className="w-full h-auto object-contain" />
+            <div className="lg:col-span-7 relative w-full lg:w-[115%] xl:w-[125%] max-w-none z-10 rounded-lg overflow-hidden shadow-2xl bg-concrete flex items-center justify-center p-8 md:p-12">
+              <img src="/overview.png" alt="RD Concrete Co. Overview" className="w-full h-auto object-contain drop-shadow-xl" />
             </div>
           </div>
         </div>
